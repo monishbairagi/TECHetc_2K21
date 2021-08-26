@@ -1,4 +1,5 @@
 import React from 'react'
+import collegeLogo from "../components/assets/Images/college-logo.png";
 import { Link } from "react-router-dom";
 
 export const Main = () => {
@@ -24,6 +25,7 @@ export const Main = () => {
 
     return (
         <div style={mainStyle}>
+            <center><img src={collegeLogo} /></center>
             <h1 style={h1Style}>TECHetc 2K21</h1>
             <h4>Annual Technical Festival organized by HETC</h4>
             <h1>15 AND 16 SEPTEMBER</h1>

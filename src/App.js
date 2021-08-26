@@ -8,7 +8,9 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import { Events } from './pages/Events';
+import { CollegeEvents } from './pages/Events/CollegeEvents';
+import { SchoolEvents } from './pages/Events/SchoolEvents';
+import { EventsMain } from './pages/EventsMain';
 import { Schedule } from './pages/Schedule';
 import { Background } from './components/Background';
 import { KnowMore } from './components/KnowMore';
@@ -24,7 +26,7 @@ function App() {
     event: ""
   };
 
-  let id=1;
+  let id = 1;
   // const [eventData, setEventData] = useState(js)
   // let getJson = (e) => {
   //   // console.log(e.event);
@@ -34,7 +36,7 @@ function App() {
   //   });
   //   console.log(eventData);
   // }
-  
+
   return (
     <div style={appStyle}>
       <Router>
@@ -51,7 +53,15 @@ function App() {
           </Route>
 
           <Route exact path="/events">
-             <Events /> 
+            <EventsMain />
+          </Route>
+
+          <Route exact path="/events/college">
+            <CollegeEvents />
+          </Route>
+
+          <Route exact path="/events/school">
+            <SchoolEvents />
           </Route>
 
           <Route exact path="/schedule">
@@ -63,19 +73,19 @@ function App() {
           </Route>
 
           <Route exact path={"/events/knowmore/1"}>
-            <KnowMore id={0}/>
+            <KnowMore id={0} />
           </Route>
 
           <Route exact path={"/events/knowmore/2"}>
-            <KnowMore id={1}/>
+            <KnowMore id={1} />
           </Route>
 
           <Route exact path={"/events/knowmore/3"}>
-            <KnowMore id={2}/>
+            <KnowMore id={2} />
           </Route>
 
           <Route exact path={"/events/knowmore/4"}>
-            <KnowMore id={3}/>
+            <KnowMore id={3} />
           </Route>
 
         </Switch>
