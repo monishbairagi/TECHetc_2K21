@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { CardGroup, Card } from 'react-bootstrap'
 import { Link } from "react-router-dom"
-import { KnowMore } from '../components/KnowMore'
-import { Schedule } from './Schedule'
+import { KnowMore } from '../../components/KnowMore'
+import { Schedule } from '../Schedule'
 
 
-export const Events = (obj) => {
+export const CollegeEvents = (obj) => {
     let color = {
         color: 'antiquewhite',
         textAlign: 'center'
