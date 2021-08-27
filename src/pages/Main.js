@@ -25,7 +25,7 @@ export const Main = () => {
 
     return (
         <div style={mainStyle}>
-            <center><img src={collegeLogo} /></center>
+            <center><img src={collegeLogo} width="350vw"/></center>
             <h1 style={h1Style}>TECHetc 2K21</h1>
             <h4>Annual Technical Festival organized by HETC</h4>
             <h1>15 AND 16 SEPTEMBER</h1>

@@ -14,8 +14,8 @@ export const EventsMain = () => {
         }
     }
     return (
-        <div className="container align-items-center">
-            <Row className="">
+        <div className="container text-center" style={{marginTop: '10%'}}>
+            <Row className="px-5 mx-5">
                 <Col className="d-flex justify-content-center">
                     <Link to="/events/school" style={{ textDecoration: 'none' }}><div className="card card-school-events" >
                         <img src={boy} />
