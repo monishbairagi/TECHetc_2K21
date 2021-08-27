@@ -3,30 +3,35 @@ import { Card, Row, Col, } from 'react-bootstrap';
 import { Link } from 'react-router-dom'
 import boy from "../components/assets/Images/school-student.png";
 import man from "../components/assets/Images/college-student.png";
+import "./Styles/Main.css";
 export const EventsMain = () => {
 
     let hoverEffect = () => {
+        var cardHoverEffect;
 
+        cardHoverEffect = {
+            border: "2px solid #",
+        }
     }
     return (
         <div className="container align-items-center">
             <Row className="">
                 <Col className="d-flex justify-content-center">
-                    <Card style={{ width: "18rem", marginBottom: "5px" }} onMouseOver={hoverEffect}>
-                        <Card.Img variant="top" src={boy} height="300px" width="200px" />
-                        <Card.Body className="d-flex justify-content-center">
-                            <Link className="btn btn-primary" to="/events/school">Events for School</Link>
-                        </Card.Body>
-                    </Card>
+                    <Link to="/events/school" style={{ textDecoration: 'none' }}><div className="card card-school-events" >
+                        <img src={boy} />
+                        <div className="card-body">
+                            <h2 className="d-flex justify-content-center" >Events for School Students</h2>
+                        </div>
+                    </div></Link>
                 </Col>
 
                 <Col className="d-flex justify-content-center">
-                    <Card style={{ width: "18rem", marginBottom: "5px" }}>
-                        <Card.Img variant="top" src={man} height="300px" width="200px" />
-                        <Card.Body className="d-flex justify-content-center">
-                            <Link className="btn btn-primary" to="/events/college">Events for College</Link>
-                        </Card.Body>
-                    </Card>
+                    <Link to="events/college" style={{ textDecoration: 'none' }}><div className="card card-college-events" >
+                        <img src={man} />
+                        <div className="card-body">
+                            <h2 className="d-flex justify-content-center" >Events for College Students</h2>
+                        </div>
+                    </div></Link>
                 </Col>
             </Row>
         </div>

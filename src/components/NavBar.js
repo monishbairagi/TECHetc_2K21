@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Navbar, Nav } from 'react-bootstrap'
+import "../pages/Styles/Main.css"
 
 export const NavBar = () => {
     let contactBtnStyle = {
@@ -9,7 +10,8 @@ export const NavBar = () => {
         width: '100px',
         placeSelf: 'center',
         fontWeight: '400',
-        fontSize: '20px'
+        fontSize: '20px',
+        float: "rigth"
     }
     let navStyle = { position: '-webkit-sticky', position: 'sticky', top: '0', zIndex: '1', backdropFilter: 'blur(0px)' }
     let blurreedNav = { position: '-webkit-sticky', position: 'sticky', top: '0', zIndex: '1', backdropFilter: 'blur(60px)' }
@@ -38,8 +40,9 @@ export const NavBar = () => {
                         <Nav.Link eventKey="4" as={Link} to="/credits">Credits</Nav.Link>
                     </Nav>
                     <Nav>
-                        <Nav.Link className="btn btn-outline-warning" style={contactBtnStyle} eventKey="5" as={Link} to="/contact">Contact</Nav.Link>
+                        <Nav.Link className="contact-btn" style={contactBtnStyle} eventKey="5" as={Link} to="/contact">Contact</Nav.Link>
                     </Nav>
+                    {/* <Link to="/contact" className="btn btn-outline-warning" style={{ float: "right" }}>Contact</Link> */}
                 </Navbar.Collapse>
             </Navbar>
 
