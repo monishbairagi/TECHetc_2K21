@@ -7,11 +7,11 @@ export const NavBar = () => {
     let contactBtnStyle = {
         borderRadius: '14px',
         alignContent: 'center',
-        width: '100px',
         placeSelf: 'center',
         fontWeight: '400',
         fontSize: '20px',
-        float: "rigth"
+        float: "rigth",
+        padding: "0 10px 0 10px"
     }
     let navStyle = { position: '-webkit-sticky', position: 'sticky', top: '0', zIndex: '1', backdropFilter: 'blur(0px)' }
     let blurreedNav = { position: '-webkit-sticky', position: 'sticky', top: '0', zIndex: '1', backdropFilter: 'blur(60px)' }
@@ -25,6 +25,8 @@ export const NavBar = () => {
             setColorChange(false);
         }
     });
+
+    let regLink = "https://docs.google.com/forms/d/e/1FAIpQLSeCrub0XBIhqp14z9oMctV-xeNEiyWD95ck6x7fv_MNpu7n4Q/viewform?embedded=true";
 
     return (
         <>
@@ -40,40 +42,13 @@ export const NavBar = () => {
                         <Nav.Link eventKey="4" as={Link} to="/credits">Credits</Nav.Link>
                     </Nav>
                     <Nav>
-                        <Nav.Link className="contact-btn" style={contactBtnStyle} eventKey="5" as={Link} to="/contact">Contact</Nav.Link>
+                        <Nav.Link className="register-btn mx-2 my-2" style={contactBtnStyle} eventKey="1" href={regLink} target="_blank">Register Now</Nav.Link>
+                        <Nav.Link className="contact-btn" style={contactBtnStyle} eventKey="2" as={Link} to="/contact">Contact</Nav.Link>
                     </Nav>
-                    {/* <Link to="/contact" className="btn btn-outline-warning" style={{ float: "right" }}>Contact</Link> */}
                 </Navbar.Collapse>
             </Navbar>
 
 
-            {/* <nav className="navbar navbar-expand-lg navbar-dark bg-none text-center" style={colorChange ? blurreedNav : navStyle}>
-                <div className="container-fluid">
-                    <Link className="navbar-brand" to="/" style={{ fontSize: '35px', fontWeight: '800' }}>TECHetc 2k21</Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarText">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0" style={{ fontSize: '20px', fontWeight: '400' }}>
-                            <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to="/" >Home</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/events">Events</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/Schedule">Schedule</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/credits">Credits</Link>
-                            </li>
-                        </ul>
-                        <span className="nav-item">
-                            <Link className="btn btn-outline-warning" style={contactBtnStyle} to="/contact">Contact</Link>
-                        </span>
-                    </div>
-                </div>
-            </nav> */}
         </>
     )
 }

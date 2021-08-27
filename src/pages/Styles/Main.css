@@ -82,12 +82,23 @@
   }
 
   .contact-btn{
-      border: 2px solid rgb(255, 187, 0);
-      color: rgb(255, 187, 0);
+      border: 2px solid rgb(197, 145, 0);
+      color: rgb(197, 145, 0);
     border-radius: 14px;
+  }
+
+  .register-btn{
+    border: 2px solid rgb(0, 128, 6);
+    color: rgb(0, 128, 6);
+  border-radius: 14px;
   }
 
   .contact-btn:hover{
       color: white;
-    background-color: rgb(255, 187, 0);
+    background-color: rgb(197, 145, 0);
+  }
+
+  .register-btn:hover{
+    color: white;
+  background-color: rgb(0, 128, 6);
   }

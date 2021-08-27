@@ -24,7 +24,7 @@ export const Background = () => {
         objectFit: 'cover',
         transform: 'translate(-50%,-50%)',
         zIndex: '-1',
-        filter: 'brightness(50%)',
+        filter: 'brightness(30%)',
     }
 
     return (

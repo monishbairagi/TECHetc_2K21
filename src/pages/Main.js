@@ -29,8 +29,7 @@ export const Main = () => {
             <h1 style={h1Style}>TECHetc 2K21</h1>
             <h4>Annual Technical Festival organized by HETC</h4>
             <h1>15 AND 16 SEPTEMBER</h1>
-            <Link to='/events' className='btn btn-outline-info' style={btnStyle}>COLLEGE EVENTS</Link>
-            <Link to='/events' className='btn btn-outline-info' style={btnStyle}> SCHOOL EVENTS</Link>
+            <Link to='/events' className='btn btn-outline-info' style={btnStyle}>EVENTS</Link>
         </div>
     )
 }
