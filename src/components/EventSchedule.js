@@ -6,7 +6,6 @@ export const EventSchedule = (obj) => {
             <table className="table" style={{ color: 'white', textAlign: 'center' }}>
                 <thead>
                     <tr>
-                        {/* <th scope="col">{obj.events[0].id}</th> */}
                         <th scope="col"><h5>{obj.events[0].event}</h5></th>
                         <th scope="col"><h5>{obj.events[0].day1}</h5></th>
                         <th scope="col"><h5>{obj.events[0].day2}</h5></th>
@@ -16,14 +15,13 @@ export const EventSchedule = (obj) => {
                     {
                         obj.events.map((e) => {
                             return (
-                                e.id!=='#'?
-                                <tr>
-                                    {/* <th scope="row">{e.id}</th> */}
-                                    <td>{e.event}</td>
-                                    <td>{e.day1}</td>
-                                    <td>{e.day2}</td>
-                                </tr>
-                                :""
+                                e.id !== '#' ?
+                                    <tr>
+                                        <td>{e.event}</td>
+                                        <td>{e.day1}</td>
+                                        <td>{e.day2}</td>
+                                    </tr>
+                                    : ""
                             )
                         })
                     }

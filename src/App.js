@@ -120,12 +120,16 @@ function App() {
             <KnowMore id={11} />
           </Route>
 
+          <Route exact path={"/events/college/knowmore/13"}>
+            <KnowMore id={13} />
+          </Route>
+
           <Route exact path={"/events/school/knowmore/1"}>
-            <KnowMore id={12} />
+            <KnowMore id={14} />
           </Route>
 
           <Route exact path={"/events/school/knowmore/2"}>
-            <KnowMore id={13} />
+            <KnowMore id={15} />
           </Route>
 
         </Switch>

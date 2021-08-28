@@ -38,7 +38,7 @@ export default function Credits() {
             <CardGroup style={{marginTop: '35px'}}>
                 <Card style={cstyle}>
                     <Card.Img style={dimage}
-                        src="https://www.hetc.ac.in/tecHETC2k20/assets/img/about/8bp.png" />
+                        src="https://scontent.fccu14-1.fna.fbcdn.net/v/t1.6435-9/133586583_1038186920024865_3546490575725417196_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=174925&_nc_ohc=AFyae9Ig6JUAX81lPba&_nc_ht=scontent.fccu14-1.fna&oh=b6bea43522283d6e78c5fde60f4ae0fa&oe=614ED542" />
                     <Card.Body>
                         <Card.Title style={cname}>Monish Kr. Bairagi</Card.Title>
                         <p style={dep}>CSE ( 2018-2022 )</p>
@@ -46,7 +46,7 @@ export default function Credits() {
                 </Card>
                 <Card style={cstyle}>
                     <Card.Img style={dimage}
-                        src="https://www.hetc.ac.in/tecHETC2k20/assets/img/about/chess.jpg" />
+                        src="https://scontent.fccu14-1.fna.fbcdn.net/v/t1.6435-9/46519891_507858086290942_5046579383024746496_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=FE-q41PrmrkAX9zHN0D&_nc_ht=scontent.fccu14-1.fna&oh=b8fa627003cce3ae284e93f2b5343f30&oe=614F3A61" />
                     <Card.Body>
                         <Card.Title style={cname}>Subhayu Sengupta</Card.Title>
                         <p style={dep}>CSE ( 2018-2022 )</p>
