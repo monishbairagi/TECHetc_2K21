@@ -14,15 +14,15 @@ export default function Credits() {
     }
     let dimage = {
         borderRadius: '100px',
-        height: '150px',
-        width: '150px',
+        height: '100px',
+        width: '100px',
     }
     let cstyle = {
-        margin: '10px',
         borderRadius: '25px',
         background: 'none',
         border: '20px',
         alignItems: 'center',
+        placeSelf: 'center',
     }
     let cname = {
         color: 'white',
@@ -35,13 +35,13 @@ export default function Credits() {
             <hr className="mx-2" style={{margin: '0', color: 'white', height: '5px' }} />
             <h1 style={upperHeader}>Website Creator</h1>
             <hr className="mx-2" style={{margin: '0', color: 'white', height: '5px' }} />
-            <CardGroup>
+            <CardGroup style={{marginTop: '35px'}}>
                 <Card style={cstyle}>
                     <Card.Img style={dimage}
                         src="https://www.hetc.ac.in/tecHETC2k20/assets/img/about/8bp.png" />
                     <Card.Body>
                         <Card.Title style={cname}>Monish Kr. Bairagi</Card.Title>
-                        <p style={dep}>CSE</p>
+                        <p style={dep}>CSE ( 2018-2022 )</p>
                     </Card.Body>
                 </Card>
                 <Card style={cstyle}>
@@ -49,7 +49,7 @@ export default function Credits() {
                         src="https://www.hetc.ac.in/tecHETC2k20/assets/img/about/chess.jpg" />
                     <Card.Body>
                         <Card.Title style={cname}>Subhayu Sengupta</Card.Title>
-                        <p style={dep}>CSE</p>
+                        <p style={dep}>CSE ( 2018-2022 )</p>
                     </Card.Body>
                 </Card>
                 <Card style={cstyle}>
@@ -57,20 +57,20 @@ export default function Credits() {
                         src="https://media-exp1.licdn.com/dms/image/C5603AQERP829I9Y3mw/profile-displayphoto-shrink_200_200/0/1622451471978?e=1635379200&v=beta&t=B3o2vnQqUSdGrhd_JEuF9i13Av89I3klBmRkreLdLEc" />
                     <Card.Body>
                         <Card.Title style={cname}>Shaswata Das</Card.Title>
-                        <p style={dep}>CSE</p>
+                        <p style={dep}>CSE ( 2018-2022 )</p>
                     </Card.Body>
                 </Card>
             </CardGroup>
             <hr className="mx-2" style={{margin: '0', color: 'white', height: '5px'}}/>
             <h1 style={upperHeader}>Organizing Team</h1>
             <hr className="mx-2" style={{margin: '0', color: 'white', height: '5px' }} />
-            <CardGroup>
+            <CardGroup style={{marginTop: '35px'}}>
                 <Card style={cstyle}>
                     <Card.Img style={dimage}
                         src="https://www.hetc.ac.in/tecHETC2k20/assets/img/about/8bp.png" />
                     <Card.Body>
                         <Card.Title style={cname}> Aishik Sikdar</Card.Title>
-                        <p style={dep}>CSE</p>
+                        <p style={dep}>CSE ( 2018-2022 )</p>
                     </Card.Body>
                 </Card>
                 <Card style={cstyle}>
@@ -78,7 +78,7 @@ export default function Credits() {
                         src="https://www.hetc.ac.in/tecHETC2k20/assets/img/about/chess.jpg" />
                     <Card.Body>
                         <Card.Title style={cname}>Koushik Chandra Das</Card.Title>
-                        <p style={dep}>CSE</p>
+                        <p style={dep}>CSE ( 2018-2022 )</p>
                     </Card.Body>
                 </Card>
                 <Card style={cstyle}>
@@ -86,7 +86,7 @@ export default function Credits() {
                         src="https://www.hetc.ac.in/tecHETC2k20/assets/img/about/chess.jpg" />
                     <Card.Body>
                         <Card.Title style={cname}>Aniket Chakraborty</Card.Title>
-                        <p style={dep}>CSE</p>
+                        <p style={dep}>CSE ( 2018-2022 )</p>
                     </Card.Body>
                 </Card>
                 <Card style={cstyle}>
@@ -94,7 +94,7 @@ export default function Credits() {
                         src="https://www.hetc.ac.in/tecHETC2k20/assets/img/about/8bp.png" />
                     <Card.Body>
                         <Card.Title style={cname}>Anindya Sarkar</Card.Title>
-                        <p style={dep}>CSE</p>
+                        <p style={dep}>CSE ( 2018-2022 )</p>
                     </Card.Body>
                 </Card>
             </CardGroup>

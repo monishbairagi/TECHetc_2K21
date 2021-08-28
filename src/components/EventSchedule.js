@@ -7,9 +7,9 @@ export const EventSchedule = (obj) => {
                 <thead>
                     <tr>
                         {/* <th scope="col">{obj.events[0].id}</th> */}
-                        <th scope="col">{obj.events[0].event}</th>
-                        <th scope="col">{obj.events[0].day1}</th>
-                        <th scope="col">{obj.events[0].day2}</th>
+                        <th scope="col"><h5>{obj.events[0].event}</h5></th>
+                        <th scope="col"><h5>{obj.events[0].day1}</h5></th>
+                        <th scope="col"><h5>{obj.events[0].day2}</h5></th>
                     </tr>
                 </thead>
                 <tbody>

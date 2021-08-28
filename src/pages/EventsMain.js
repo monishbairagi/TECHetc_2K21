@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Row, Col, } from 'react-bootstrap';
+import { Row, Col, } from 'react-bootstrap';
 import { Link } from 'react-router-dom'
 import boy from "../components/assets/Images/school-student.png";
 import man from "../components/assets/Images/college-student.png";

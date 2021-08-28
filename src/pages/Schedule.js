@@ -5,7 +5,7 @@ export const Schedule = () => {
     let scheduleData = [
         {
             id: "#",
-            event: "Event",
+            event: "EVENTS",
             day1: "15-09-2021",
             day2: "16-09-2021"
         },
