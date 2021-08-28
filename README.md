@@ -1,5 +1,5 @@
 # Run These Commands First
-### `npx create-react-app techetc2k21`
+### `git clone https://github.com/monishbairagi/TECHetc_2K21`
 ### `npm install`
 
 # Packages Used
