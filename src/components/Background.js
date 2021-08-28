@@ -1,5 +1,5 @@
 import React from 'react'
-import v1 from './assets/videos/v1.mp4'
+import v1 from './assets/videos/sample_background.mp4'
 import v2 from './assets/videos/v2.mp4'
 import v3 from './assets/videos/v3.mp4'
 import v4 from './assets/videos/v4.mp4'

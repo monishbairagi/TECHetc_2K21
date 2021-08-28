@@ -88,23 +88,46 @@
   }
 
   .contact-btn{
-      border: 2px solid rgb(197, 145, 0);
-      color: rgb(197, 145, 0);
+    border: 3px solid rgb(255, 187, 0);
+    color: rgb(255, 188, 5);
     border-radius: 14px;
+    height: 50px;
+    width: 108px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 20px;
+    float: right;
+    padding: 5px 10px;
+    background-color: rgb(153, 113, 1);
   }
 
   .register-btn{
-    border: 2px solid rgb(0, 128, 6);
-    color: rgb(0, 128, 6);
-  border-radius: 14px;
+    border: 3px solid rgb(0, 195, 10);
+    color: rgb(0, 195, 10);
+    border-radius: 14px;
+    height: 50px;
+    width: 165px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 20px;
+    float: right;
+    padding: 5px 10px;
+    background-color: rgb(2, 102, 52);
+    filter: blur(10%);
   }
 
   .contact-btn:hover{
-      color: white;
-    background-color: rgb(197, 145, 0);
+    transform: scale(1.05);
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 188, 5);
   }
 
   .register-btn:hover{
-    color: white;
-  background-color: rgb(0, 128, 6);
+    transform: scale(1.05);
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 195, 10);
+  }
+
+  .techetc-title{
+    font-family: 'Techno Hideo', sans-serif;
   }

@@ -3,13 +3,14 @@ import collegeLogo from "../components/assets/Images/college-logo.png";
 import { Link } from "react-router-dom";
 
 export const Main = () => {
+
     let mainStyle = {
         textAlign: 'center',
         color: 'white',
         marginTop: '14vh',
     }
     let h1Style = {
-        fontSize: '12vw',
+        fontSize: '10vw',
         fontWeight: '800'
     }
     let btnStyle = {
@@ -25,8 +26,8 @@ export const Main = () => {
 
     return (
         <div style={mainStyle}>
-            <center><img src={collegeLogo} width="350vw"/></center>
-            <h1 style={h1Style}>TECHetc 2K21</h1>
+            <center><img src={collegeLogo} width="350vw" /></center>
+            <h1 style={h1Style} className="techetc-title">TECHetc 2K21</h1>
             <h4>Annual Technical Festival organized by HETC</h4>
             <h1>15 AND 16 SEPTEMBER</h1>
             <Link to='/events' className='btn btn-outline-info' style={btnStyle}>EVENTS</Link>

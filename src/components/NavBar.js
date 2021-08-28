@@ -5,13 +5,8 @@ import "../pages/Styles/Main.css"
 
 export const NavBar = () => {
     let contactBtnStyle = {
-        borderRadius: '14px',
-        alignContent: 'center',
-        placeSelf: 'center',
-        fontWeight: '400',
-        fontSize: '20px',
-        float: "rigth",
-        padding: "0 10px 0 10px"
+        alignContent: "center",
+        placeSelf: "center"
     }
     let navStyle = { position: '-webkit-sticky', position: 'sticky', top: '0', zIndex: '1', backdropFilter: 'blur(0px)' }
     let blurreedNav = { position: '-webkit-sticky', position: 'sticky', top: '0', zIndex: '1', backdropFilter: 'blur(60px)' }
@@ -36,14 +31,14 @@ export const NavBar = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav></Nav>
                     <Nav className="me-auto" style={{ fontSize: '20px', fontWeight: '400' }}>
-                        <Nav.Link eventKey="1" as={Link} to="/">Home</Nav.Link>
+                        <Nav.Link eventKey="1" active as={Link} to="/">Home</Nav.Link>
                         <Nav.Link eventKey="2" as={Link} to="/events">Events</Nav.Link>
                         <Nav.Link eventKey="3" as={Link} to="/schedule">Schedule</Nav.Link>
                         <Nav.Link eventKey="4" as={Link} to="/credits">Credits</Nav.Link>
                     </Nav>
-                    <Nav>
-                        <Nav.Link className="register-btn mx-2 my-2" style={contactBtnStyle} eventKey="1" href={regLink} target="_blank">Register Now</Nav.Link>
-                        <Nav.Link className="contact-btn" style={contactBtnStyle} eventKey="2" as={Link} to="/contact">Contact</Nav.Link>
+                    <Nav className>
+                        <Nav.Link className="register-btn mx-2 my-2" style={contactBtnStyle} eventKey="1" active href={regLink} target="_blank">Register Now</Nav.Link>
+                        <Nav.Link className="contact-btn" style={contactBtnStyle} eventKey="1" active as={Link} to="/contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
