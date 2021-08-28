@@ -96,15 +96,101 @@ export const KnowMore = (obj) => {
         },
         {
             id: '3',
-            event: 'Math-Mania',
-            head1: 'Contact:',
-            para1: '+91 9038741205\n+91 7278454389'
+            event: 'CROSS Word',
+            head2: 'Rules for crossword',
+            para2: '\nContestants can use PC, laptop, smart phone with internet connectivity.'
+            +'\n•  Link for Google form with timer will be given to the crossword whatsapp group which will be formed after the registration process completes.'
+            +'\n•  Once the contestant clicks the link, time starts counting. You have to fill up your name , college name , stream, year and phone no. '
+            +'\n•  Depending on the stream chosen, you will be directed to that particular crossword link. When clicked, crossword problem will appear.'
+            +'\n•  A maximum time limit of 30 mins will be provided.'
+            +'\n•  Contestant requires to solve as much as and as fast as he/she can within that time limit. '
+            +'\n•  Score will be awarded on the basis of correct answers and overall time taken.'
+            +'\n•  The solved page has to be saved as pdf using Print Menu and that pdf file has to be uploaded through upload button. '
+            +'\n•  In case of tie, number of correct answers and wrong answers will be considered.'
+            +'\n•  You must do the following three steps before leave'
+            +'\n      1.  Uploading  solved pdf file'
+            +'\n      2.  Submitting  the google form and' 
+            +'\n      3.  Submitting timer window. '
+            +'\n   Otherwise you will be disqualified.'
+            +'\n\n•  When successfully submitted, a massage showing “ Test Completed” will appear.'
+            +'\n•  Judges’ decision is final. '
+            +'\n•  For your easy understanding a Demo Video link will be shared in whatsapp group.',
+            head3:'Teacher Coordinators',
+            para3: '•  Anikendu Maitra(EE) (8240139436)'
+            +'\n•  Samir Ghosh( ME) 91632 15815'
+            +'\n•  Piyali Das (CE)9830715351 '
+            +'\n•  Sudipta Kangshabanik (CE)9163162845'
+            +'\n•  Manish kr Singh (ECE)  90075 66269'
+            +'\n•  Sandeep Bhoumik(CSE) 9231510404 '
+            +'\n•  Shirshendu Hore(CSE)9836372171 '
         },
         {
             id: '4',
-            event: 'Code-2-Duo',
-            head1: 'Contact:',
-            para1: '+91 9038741205\n+91 7278454389'
+            event: 'CIRCUI-T-RICKS',
+            head2: 'Rules for Circui-t-ricks:',
+            para2: '\nContestants must use Computer with internet connectivity.'
+            +'\n•  PSIM, a circuit simulation software has to be downloaded and installed well in advance. '
+            +'\n•  For downloading  PSIM  software, a link will be shared in the whatsapp group which will be formed after the registration process completes.'
+            +'\n•  Competition will be conducted through google form. '
+            
+            +'\n•  In the preliminary round, common problem will be given and you have to design the circuit and simulate the same according to the problem given.'
+            
+            
+            +'\n•  You require to show the results by uploading the result files or the screen shot of required output. '
+            +'\n•  A maximum time limit of 30 mins will be provided.'
+            +'\n•  Score will be awarded on the basis of following parameters '
+            +'\n•  Suitable components to design the circuit'
+            +'\n•  Neatness and cleanliness of simulated circuit '
+            +'\n•  Its proper functioning giving proper outputs.'
+            +'\n•  Time taken to complete the problem.'
+            
+            +'\n•  In the final round, the time given will be 45 mins and the score will be awarded in the same way. '
+            +'\n•  If the number of contestants is found to be less than ten, there will be no preliminary round. '
+            +'\n•  You must do the following three steps before leave'
+            +'\n       1.  Uploading  all pdf or image files'
+            +'\n       2.  Submitting  the google form and '
+            +'\n       3.  Submitting timer window. '
+            +'\n\n   Otherwise you will be disqualified.'
+            
+            +'\n•  When successfully submitted, a massage showing “ Test Completed” will appear.'
+            +'\n•  Judges’ decision is final.'
+            +'\n•  For your easy understanding a Demo Video link will be shared in whatsapp group.'
+        },
+        {
+            id: '5',
+            event: 'CIVIL-O-PEDIA',
+            head2: 'General Rules for Civil-O-Pedia - 2K21',
+            para2: '\n1. Participants should form a group of two students only. '
+            +'\n2. The event carries prizes for 1st, 2nd & 3rd place holders only. '
+            +'\n3. If more than six teams register, all of them need to appear for an MCQ-based screening test via a google form.'
+            +'\n4. One member from each team shall submit the response to the google form.'
+            +'\n5. Best six teams from the screening test will take part in the final rounds of Civil-O-Pedia.' 
+            +'\n6. The qualifying teams for the final rounds will be primarily selected based on obtained marks in screening. In the case of a tie, submission time will be applied as the second layer filter.'
+            +'\n7. In case of a conflict regarding a question, the decision of the event coordinators will be final. '
+            +'\n8. The final of Civil-O-Pedia is composed of 4 rounds of quizzing. Details of rounds are as follows:'
+            +'\n        Round 1: General Civil Engineering '
+            +'\n        Round 2: Audio & Visual '
+            +'\n        Round 3: Specialization' 
+            +'\n        Round 4: Mixed Bag '
+            +'\n9. The distinct rules of each round will be deliberated in detail before the round by the quiz master.'
+            +'\n10. Among six participating teams, two teams will be eliminated after Round-2. In case of a tie between two or more teams, further provision of tie-breaker will be proclaimed for the next round.'
+            +'\n\nThe rules are subject to minor changes (if needed) which shall be duly informed to the participants.'
+            +'\n\nFor any further query, contact 9831366180/ 8961115386.'
+        },
+        {
+            id: '6',
+            event: 'INSTA-PLAN',
+            head2: 'GENERAL INFORMATION:',
+            para2: '\n1. A plot area with random dimensions will be given.'
+            +'\n2. Road alignment and North direction will be provided.'
+            +'\n3. Built up area with proper clearance have to be determined. '
+            +'\n4. A Line Plan is to be prepared to the given scale with proper orientation as per standard norms.'
+            +'\n5. Judgment will be based on the most economic utilization of built up area satisfying the standard norms of planning.'
+            +'\n6. Drawing must be done in A-4 size drawing sheet using pencil and necessary drawing equipments. '
+            +'\n7. Maximum two participants are allowed in a group.' 
+            +'\n8. Maximum duration of the event will be one hour.'
+            +'\n9. In case of ‘Tie’, preference will be given to the group doing early submission.'
+            +'\n10. Decision of the judges will be final.' 
         },
     ];
 
