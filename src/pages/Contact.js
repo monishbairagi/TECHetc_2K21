@@ -34,12 +34,12 @@ export const Contact = () => {
                         </ul>
                     </Row>
                 </Card>
-                <Card style={{ background: 'none', border: 'none' }}>
+                {/* <Card style={{ background: 'none', border: 'none' }}>
                     <iframe className="my-5"
                         src="https://docs.google.com/forms/d/e/1FAIpQLSeCrub0XBIhqp14z9oMctV-xeNEiyWD95ck6x7fv_MNpu7n4Q/viewform?embedded=true" width="100%" height="550" frameborder="0" marginheight="0" marginwidth="0">
-                            Loading...
-                        </iframe>
-                </Card>
+                        Loading...
+                    </iframe>
+                </Card> */}
             </CardGroup>
 
         </>

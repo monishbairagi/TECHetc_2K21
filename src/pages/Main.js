@@ -3,12 +3,15 @@ import collegeLogo from "../components/assets/Images/college-logo.jpg";
 import { Link } from "react-router-dom";
 
 export const Main = () => {
+
     let mainStyle = {
         textAlign: 'center',
         color: 'white',
         marginTop: '9vh',
     }
     let h1Style = {
+
+        fontSize: '10vw',
         fontSize: '8vw',
         fontWeight: '800'
     }
@@ -27,7 +30,7 @@ export const Main = () => {
                     <img src={collegeLogo} width="120vw" style={{ borderRadius: "50%", marginBottom: '0' }} />
                 </a>
             </center>
-            <h1 style={h1Style}>TECHetc 2K21</h1>
+            <h1 style={h1Style} className="techetc-title">TECHetc 2K21</h1>
             <h4>Annual Technical Festival organized by HETC</h4>
             <h1>15 AND 16 SEPTEMBER</h1>
             <Link to='/events' className='btn btn-outline-info' style={btnStyle}>EVENTS</Link>
