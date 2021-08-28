@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Navbar, Nav } from 'react-bootstrap'
 import "../pages/Styles/Main.css"
+import collegeLogo from "../components/assets/Images/college-logo.jpg"
 
 export const NavBar = () => {
     let contactBtnStyle = {

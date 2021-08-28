@@ -40,18 +40,18 @@ export const KnowMore = (obj) => {
             para7: 'No extra registration fee needed. A one-time registration at the main desk is all that is required.',
             head8: 'STUDENT CO-ORDINATORS:',
             para8: '• Mohibul Aktar Mollah (9851995587)'
-            +'\n• Subhayu Sengupta (9038412331)'
-            +'\n• Koulik Das (7003114698)'
-            +'\n• Subhrangshu Muhury (7872511397)'
-            +'\n• Sayan Sen (8240535769)'
-            +'\n• Krishanu Chinya (8670176360)'
+                + '\n• Subhayu Sengupta (9038412331)'
+                + '\n• Koulik Das (7003114698)'
+                + '\n• Subhrangshu Muhury (7872511397)'
+                + '\n• Sayan Sen (8240535769)'
+                + '\n• Krishanu Chinya (8670176360)'
         },
         {
             id: '2',
             event: 'CODE-2-DUO',
             head1: 'ABOUT CODE-2-DUO:',
             para1: 'CODE-2-DUO is the completely revamped coding event of TECHETC 2k21 and will be an awesome platform to hone your programming and problem-solving skills over 2 grueling rounds of solid coding action.'
-            +'If you feel the burning desire in yourself to code, and want to prove yourselves to be among the best, come join us and code your way to glory!',
+                + 'If you feel the burning desire in yourself to code, and want to prove yourselves to be among the best, come join us and code your way to glory!',
             head2: 'CONTEST DETAILS:',
             para2: 'CODE-2-DUO will be spread over 2 rounds, both purely coding rounds, consisting of problems testing your algorithmic and problem-solving skills. The rounds are as follows:'
                 + '\n    Round 1 (Prelims): 4 problems ranging from very easy to medium level questions. Time-1 hour'
@@ -60,38 +60,38 @@ export const KnowMore = (obj) => {
                 + '\n      The rank list will be IOI Style. Ranking will be decided on time elapsed from start of competition to time at which submission is successful. Read about it here:(https://www.codechef.com/rankings#ACMStyleRanklist)',
             head3: 'General instructions:',
             para3: '• Since it is an online contest, start time cannot be manipulated as it has to be to set before-hand.'
-                +'\n• It will be conducted over Google meet whose link will provided beforehand by the organizers. The participants need to join the meeting 15 minutes prior to the event with the registered email id.'
-                +'\n• The participants will be needed to turn on their camera and mic throughout the competition.'
-                +'\n• No team can open any tab on the browser other than HackerRank. Breaking this rule will result in disqualification. Also, if any team is caught researching about the question online (including looking at your own past submissions to problems other than those provided), or cheating, or communicating with other teams during the contest, involved team(s) will be disqualified. The decision of the coordinators will be final.',
+                + '\n• It will be conducted over Google meet whose link will provided beforehand by the organizers. The participants need to join the meeting 15 minutes prior to the event with the registered email id.'
+                + '\n• The participants will be needed to turn on their camera and mic throughout the competition.'
+                + '\n• No team can open any tab on the browser other than HackerRank. Breaking this rule will result in disqualification. Also, if any team is caught researching about the question online (including looking at your own past submissions to problems other than those provided), or cheating, or communicating with other teams during the contest, involved team(s) will be disqualified. The decision of the coordinators will be final.',
             head4: 'Rules for Round 1 (Prelims):',
             para4: '• Since it is an online contest, start time cannot be manipulated as it has to be to set before-hand.'
-                    +'\n• Round 1 will have 4 problems, ranging from very easy to medium difficulty.'
-                    +'\n• Please follow proper input/output format as provided in the questions.'
-                    +'\n• Time duration will be 1 hour.'
-                    +'\n• Top 25% teams will move to next round (can be altered if required).',
+                + '\n• Round 1 will have 4 problems, ranging from very easy to medium difficulty.'
+                + '\n• Please follow proper input/output format as provided in the questions.'
+                + '\n• Time duration will be 1 hour.'
+                + '\n• Top 25% teams will move to next round (can be altered if required).',
             head5: 'Rules for Round 2 (Finals):',
             para5: '• Since it is an online contest, start time cannot be manipulated as it has to be to set before-hand.'
-                    +'\n• Since Round 2 will also be an online contest, start time cannot be manipulated as it has to be to set before-hand. Selected teams may wait in the google meeting itself after the 1st contest. They must report at least 15 minutes before the contest.'
-                    +'\n• Round 2 will have 4 problems, ranging from medium to hard difficulty.'
-                    +'\n• Time duration will be 1 hour.',
+                + '\n• Since Round 2 will also be an online contest, start time cannot be manipulated as it has to be to set before-hand. Selected teams may wait in the google meeting itself after the 1st contest. They must report at least 15 minutes before the contest.'
+                + '\n• Round 2 will have 4 problems, ranging from medium to hard difficulty.'
+                + '\n• Time duration will be 1 hour.',
             head6: 'ENVIRONMENT:',
             para6: 'Both the rounds will be hosted on HackerRank (www.hackerrank.com) as private/closed contests, of which the link will be shared on-site right before the contest.'
-                    +'\n Languages allowed:  C / C++ / JAVA / PYTHON'
-                    +'\n OS:  Linux, Windows'
-                    +'\n Browser:   Chrome, Firefox, Edge'
-                    +'\n Compilers:  Online HackerRank IDE.',
+                + '\n Languages allowed:  C / C++ / JAVA / PYTHON'
+                + '\n OS:  Linux, Windows'
+                + '\n Browser:   Chrome, Firefox, Edge'
+                + '\n Compilers:  Online HackerRank IDE.',
             head7: 'TEAM DETAILS:',
             para7: 'CODE-2-DUO is a team event, with each team having two members. Any one member must have an account in hackerRank. If you don’t have one, get yourself an account at <link>www.hackerrank.com.</link>'
-                    +'\n Note: Only one of the participants per group will be able to access the hackerRank ide, who will also have to share the screen. Participants can discuss between themselves.',
+                + '\n Note: Only one of the participants per group will be able to access the hackerRank ide, who will also have to share the screen. Participants can discuss between themselves.',
             head8: 'REGISTRATION FEES:',
             para8: 'No extra registration fee needed. A one-time registration at the main desk is all that is required.',
             head9: 'STUDENT CO-ORDINATORS:',
             para9: '•  Shaswata Das (7076974888)'
-            +'\n•  Aishik Sikdar (8444857345)'
-            +'\n•  Aniket Chakraborty (7685848451)'
-            +'\n•  Anindya Sarkar (8240954820)'
-            +'\n•  Koushik Chandra Das (9547318203)'
-            +'\n•  Monish Kumar Bairagi (9038741205)'
+                + '\n•  Aishik Sikdar (8444857345)'
+                + '\n•  Aniket Chakraborty (7685848451)'
+                + '\n•  Anindya Sarkar (8240954820)'
+                + '\n•  Koushik Chandra Das (9547318203)'
+                + '\n•  Monish Kumar Bairagi (9038741205)'
 
         },
         {
