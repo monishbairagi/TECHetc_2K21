@@ -22,7 +22,7 @@ export const NavBar = () => {
         }
     });
 
-    let regLink = "https://docs.google.com/forms/d/e/1FAIpQLSeCrub0XBIhqp14z9oMctV-xeNEiyWD95ck6x7fv_MNpu7n4Q/viewform?embedded=true";
+    let regLink = "https://forms.gle/6ypXRTMvXR7avzzv8";
 
     return (
         <>
@@ -32,14 +32,14 @@ export const NavBar = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav></Nav>
                     <Nav className="me-auto" style={{ fontSize: '20px', fontWeight: '400' }}>
-                        <Nav.Link eventKey="1" active as={Link} to="/">Home</Nav.Link>
+                        <Nav.Link eventKey="1" as={Link} to="/">Home</Nav.Link>
                         <Nav.Link eventKey="2" as={Link} to="/events">Events</Nav.Link>
                         <Nav.Link eventKey="3" as={Link} to="/schedule">Schedule</Nav.Link>
-                        <Nav.Link eventKey="4" as={Link} to="/credits">Credits</Nav.Link>
+                        <Nav.Link eventKey="4" as={Link} to="/credits">Gallery</Nav.Link>
+                        <Nav.Link eventKey="5" as={Link} to="/contact">Contact</Nav.Link>
                     </Nav>
                     <Nav className>
-                        <Nav.Link className="register-btn mx-2 my-2" style={contactBtnStyle} eventKey="1" active href={regLink} target="_blank">Register Now</Nav.Link>
-                        <Nav.Link className="contact-btn" style={contactBtnStyle} eventKey="1" active as={Link} to="/contact">Contact</Nav.Link>
+                        <Nav.Link className="register-btn mx-2 my-2" style={contactBtnStyle} active href={regLink} target="_blank">Register Now</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
