@@ -35,7 +35,7 @@ export const NavBar = () => {
                         <Nav.Link eventKey="1" as={Link} to="/">Home</Nav.Link>
                         <Nav.Link eventKey="2" as={Link} to="/events">Events</Nav.Link>
                         <Nav.Link eventKey="3" as={Link} to="/schedule">Schedule</Nav.Link>
-                        <Nav.Link eventKey="4" as={Link} to="/credits">Gallery</Nav.Link>
+                        <Nav.Link eventKey="4" as={Link} to="/gallery">Gallery</Nav.Link>
                         <Nav.Link eventKey="5" as={Link} to="/contact">Contact</Nav.Link>
                     </Nav>
                     <Nav className>

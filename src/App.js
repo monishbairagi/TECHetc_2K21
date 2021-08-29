@@ -15,6 +15,7 @@ import { Schedule } from './pages/Schedule';
 import { Background } from './components/Background';
 import { KnowMore } from './components/KnowMore';
 import Credits from './pages/Credits';
+import { Gallery } from './pages/Gallery';
 
 function App() {
   let appStyle = {
@@ -68,8 +69,8 @@ function App() {
             <Schedule />
           </Route>
 
-          <Route exact path="/credits">
-            <Credits />
+          <Route exact path="/gallery">
+            <Gallery/>
           </Route>
 
           <Route exact path={"/events/college/knowmore/1"}>

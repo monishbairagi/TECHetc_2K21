@@ -3,12 +3,12 @@ import React from 'react'
 export const EventSchedule = (obj) => {
     return (
         <div className='mx-2'>
-            <table className="table" style={{ color: 'white', textAlign: 'center' }}>
+            <table className="table" style={{ color: 'white'}}>
                 <thead>
                     <tr>
                         <th scope="col"><h5>{obj.events[0].event}</h5></th>
-                        <th scope="col"><h5>{obj.events[0].day1}</h5></th>
-                        <th scope="col"><h5>{obj.events[0].day2}</h5></th>
+                        <th className='text-center' scope="col"><h5>{obj.events[0].day1}</h5></th>
+                        <th className='text-center' scope="col"><h5>{obj.events[0].day2}</h5></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -18,8 +18,8 @@ export const EventSchedule = (obj) => {
                                 e.id !== '#' ?
                                     <tr>
                                         <td>{e.event}</td>
-                                        <td>{e.day1}</td>
-                                        <td>{e.day2}</td>
+                                        <td className='text-center'>{e.day1}</td>
+                                        <td className='text-center'>{e.day2}</td>
                                     </tr>
                                     : ""
                             )
