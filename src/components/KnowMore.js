@@ -96,7 +96,7 @@ export const KnowMore = (obj) => {
         },
         {
             id: '3',
-            event: 'CROSS Word',
+            event: 'CROSSWORD',
             head2: 'Rules for crossword',
             para2: '\nContestants can use PC, laptop, smart phone with internet connectivity.'
             +'\n•  Link for Google form with timer will be given to the crossword whatsapp group which will be formed after the registration process completes.'
@@ -191,6 +191,80 @@ export const KnowMore = (obj) => {
             +'\n8. Maximum duration of the event will be one hour.'
             +'\n9. In case of ‘Tie’, preference will be given to the group doing early submission.'
             +'\n10. Decision of the judges will be final.' 
+        },
+        {
+            id: '7',
+            event: 'μMAT',
+            head1: 'About μMAT:',
+            para1: 'This contest is aimed at testing the knowledge about 8085μP with peripheral devices and their programming skills using Assembly Language Programming (ALP).'
+            +'\nAt the same time the knowledge about MATLAB and the programming skills will be tested.',
+            para2: '•  The contest would consist of Three Rounds.'
+        	+'\n\n•  Each of the round would be Elimination Round. ',
+            head3:'Round 1 (MCQ):-',
+            para3:' This round will consist of a set of 20 MCQs (based on 8085μP with its peripheral devices and MATLAB). For each wrong answer, 0.25 marks will be deducted. ',
+            head4:'Round 2 (Coding in 8085 μP with its peripheral devices):- ',
+            para4:' In this round a set of problems (programs) will be given, which need to be solved using 8085 μP instruction set and assembly language programming concepts (ALP). Suitable 8085 Simulator may be used. The solution with output of the given programs are needed to be uploaded through the given link. As per online submission using provided link, the solutions will be checked and evaluated. During evaluation, the event coordinator or evaluator will interact with the participant.',
+            head5:'Round 3 (Coding in MATLAB):- ',
+            para5:' This round will be related to MATLAB codes. A set of problems (programs) will be given which need to be solved or debugged in MATLAB platform. For each wrong answer, 0.5 marks will be deducted. Suitable MATLAB Simulator may be used. The solution with output of the given programs are needed to be uploaded through the given link. As per online submission using provided link, the solutions will be checked and evaluated. During evaluation, the event coordinator or evaluator will interact with the participant.',
+            head6:'Important Points: ',
+            para6:'1.  Organizers will not be responsible with any system, network and internet related issues.'
+            +'\n2.  Participants have to use their own system, network and internet.'
+            +'\n3.  Judgement of event coordinators will be final.	'
+            +'\n4.  Every round is time-dependent. Each round will start and end as per scheduled time. No extra time will be given.'
+            +'\n5.  If there is any “TIE”, recorded online response with minimum time and maximum correct answer(s) will be considered for “TIE Breaker”. Marks obtained in the 1st Round may also be considered for “RE- TIE BREAKER”.'
+            +'\n6.  After Round 1, ten (10) participants (maximum) will sail through to Round 2 and in the Final Round or Round 3, five (5) participants (maximum) can compete. '
+            +'\n7.  For Round 2, suitable 8085 Simulator may be used. '
+            +'\n8.  For Round 3, suitable MATLAB Simulator may be used.'
+            +'\n9.  In Round 2 and Round 3, participants have to join using Google Meet and during the event time, they need to put the camera “ON” and interact with the evaluator.'
+            +'\n10.  Any rule or instruction is subjected to change as per requirement.',
+            head7:'Coordinators ( Coding using 8085 μP ):',
+            para7:'Mr. Jagadish Bhattacharya'
+            +'\nM: +91 9830602422'
+            +'\nEmail: jagadish.bhattacharya@hetc.ac.in'
+            +'\n\nMr. Subhajit Roy'
+            +'\nM: +91 7980083295'
+            +'\nEmail:subhajit.roy@hetc.ac.in',
+            head8:'Coordinators ( Coding using MATLAB ):',
+            para8:'Mr. Subhojit Malik'
+            +'\nM: +91 9830173510'
+            +'\nEmail: subhojit.malik@hetc.ac.in'
+            +'\n\nMr. Manish Kumar Singh'
+            +'\nM: +91 9007566269'
+            +'\nEmail:manish.kumar.singh@hetc.ac.in',
+        },
+        {
+            id: '8',
+            event: 'CIRCUITECH',
+            head1: 'About CIRCUITECH:',
+            para1: 'This contest is aimed at testing the knowledge about analog and digital electronics.',
+            para2: '•  The contest would consist of Two Rounds.'
+        	+'\n\n•  First round would be Elimination Round. ',
+            head3:'Round 1 (MCQ):-',
+            para3:' This round will be conducted in Google Form and it consists of a set of 30 MCQ’s (based on analog and digital electronics). No negative marking is there in this round.',
+            head4:'Round 2 (Circuit design):- ',
+            para4:' In this round a circuit (analog/ digital) will be given, which need to be implemented using Tinkercad (https://www.tinkercad.com/) and show the output in Google Meet whose link will be shared with the selected participants before starting of the round. Correct output in minimum time will get maximum marks.',
+            head6:'Important Points: ',
+            para6:'1.  Organizers will not be responsible with any system, network and internet related issues.'
+            +'\n2.  Participants have to use their own system, network and internet.'
+            +'\n3.  Judgement of event coordinators will be final.	'
+            +'\n4.  Every round is time-dependent. Each round will start and end as per scheduled time. No extra time will be given.'
+            +'\n5.  If there is any “TIE”, recorded online response with minimum time and maximum correct answer(s) will be considered for “TIE Breaker”. '
+            +'\n    Marks obtained in the 1st Round may also be considered for “TIE BREAKER” in 2nd Round.'
+            +'\n6.  After Round 1, ten (10) participants (maximum) will sail through to Round 2 and in the Final Round or Round 3, five (5) participants (maximum) can compete. ',
+            head7:'Coordinators:',
+            para7:'Mrs. Swagata Choudhury'
+            +'\nM: +91 9433122291'
+            +'\nEmail: swagata.mallik@hetc.ac.in'
+            +'\n\nMr. Swarup Samanta'
+            +'\nM: +91 7003557478'
+            +'\nEmail: swarup.samanta@hetc.ac.in'
+            +'\n\nMrs. Bidisha Sengupta'
+            +'\nM: +91 9062373081'
+            +'\nEmail: bidisha.sen.gupta@hetc.ac.in'
+            +'\n\nMrs. Shyamali Gayen'
+            +'\nM: +91 9804844614'
+            +'\nEmail: shyamali.gayen@hetc.ac.in',
+            
         },
     ];
 
