@@ -264,7 +264,49 @@ export const KnowMore = (obj) => {
                 + '\n\nMrs. Shyamali Gayen'
                 + '\nM: +91 9804844614'
                 + '\nEmail: shyamali.gayen@hetc.ac.in',
-
+        },
+        {
+            id: '9',
+            event: 'Hunt For Fun',
+            head1: 'About:',
+            para1: 'Do you think you have what it takes to solve mysteries? Have you felt comfortable dreaming and fantasizing yourselves in a detective-s hat? Gear up as TECHetc 2K21 brings to you the event of Hunt For Fun, where players or treasure hunters search for answers to the questions. Players use clues and hints given along with the question to get the answer and progress though the hunt unlocking greater treasures every time. More thrill, more excitement, more madness, more treasures!',
+            head3:'Rules:-',
+            para3:'1)  Only team participation is allowed. Each team must contain only 2 members.'
+            +'\n2)  The event consists of 4 rounds and the contestants have to crack each clue of that round before progressing to the next round.'
+            +'\n3)  From the 1st round only 12 groups will be selected for the next round.'
+            +'\n4)  Time allotted for 1st round is 10 minutes post which the contestants will be eliminated.'
+            +'\n5)  Judges/Coordinators reserve the right to change timings, rules of the event which will be notified at the latest to all the participants. Decision of the jury panel will be final and binding.',
+            head4:'Platform will be used:-',
+            para4:'Google Meet',
+            head5:'Eligibility:',
+            para5:'All team members should have proper College ID card on them and should be able to produce the same in original when asked for verification, failing which they will not be allowed to participate. Each participant should be a student pursuing some field of study in college/university.',
+            head6:'Coordinators:',
+            para6:'Saurav Chowdhury: +91 9331614668'
+            +'\nPritam Biswas: +91 9038572990',
+            
+        },
+        {
+            id: '10',
+            event: 'MATHMANIA (College level)',
+            head1: 'About:',
+            para1: 'Do numbers fascinate you? Are you a Maths enthusiast? Did you enjoy those Maths classes in your school? Well, Mathmania brings you the perfect opportunity to revisit your school days and test how much of it do you still remember? Well, are you ready for the challenge??? ',
+            head3:'Rules:-',
+            para3:'There will be 30 MCQ questions.'
+            +'\n\nThe participants  will  be  given  maximum 30  minutes  to  solve  the  paper'
+            +'\n\n•  There will be no negative marking on wrong response.'
+            +'\n•  Scoring will be based on correct solution.'
+            +'\n•  In case of tie in scores, submission time will be considered.'
+            +'\n\nAny or all of the rules are subject to change at any point of time.'
+            +'\n\nThe decision of the coordinators will be final.',
+            head4:'Platform:',
+            para4:'Google Form',
+            head5:'TEAM DETAILS:',
+            para5:'MATHMANIA is an individual event.',
+            head6:'ELIGIBILITY:',
+            para6:'All participants should have proper ID card for proof of date of birth, and should be able to produce the same in original when asked for verification, failing which they will not be allowed to participate. Each participant should be a student pursuing some field of study in college/university.',
+            head7:'CO-ORDINATORS:',
+            para7:'• Dr. Rajesh Patra (8961855689)'
+            +'\n• Mrs. Sudeshna Banerjee (8240326368)'
         },
     ];
 
