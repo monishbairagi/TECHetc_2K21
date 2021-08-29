@@ -96,7 +96,7 @@ export const KnowMore = (obj) => {
         },
         {
             id: '3',
-            event: 'CROSSWORD',
+            event: 'CROSS-WORD',
             head2: 'Rules for crossword',
             para2: '\nContestants can use PC, laptop, smart phone with internet connectivity.'
             +'\n•  Link for Google form with timer will be given to the crossword whatsapp group which will be formed after the registration process completes.'

@@ -33,7 +33,7 @@ export default function Credits() {
     return (
         <div>
             <hr className="mx-2" style={{margin: '0', color: 'white', height: '5px' }} />
-            <h1 style={upperHeader}>Website Creator</h1>
+            <h1 style={upperHeader}>Website Developers</h1>
             <hr className="mx-2" style={{margin: '0', color: 'white', height: '5px' }} />
             <CardGroup style={{marginTop: '35px'}}>
                 <Card style={cstyle}>
@@ -62,7 +62,7 @@ export default function Credits() {
                 </Card>
             </CardGroup>
             <hr className="mx-2" style={{margin: '0', color: 'white', height: '5px'}}/>
-            <h1 style={upperHeader}>Organizing Team</h1>
+            <h1 style={upperHeader}>Student Coordinators</h1>
             <hr className="mx-2" style={{margin: '0', color: 'white', height: '5px' }} />
             <CardGroup style={{marginTop: '35px'}}>
                 <Card style={cstyle}>

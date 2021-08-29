@@ -1,47 +1,39 @@
 import React from 'react'
-import { CardGroup, Card, Row, Col, Container } from 'react-bootstrap'
+import { CardGroup, Card } from 'react-bootstrap'
 
 export const Contact = () => {
-    let color = {
-        color: 'antiquewhite',
-        textAlign: 'center'
-    }
     return (
-        <>
-            <CardGroup >
-                <Card style={{ background: 'none', border: 'none', placeSelf: 'center' }}>
-                    <Row style={{ textAlign: 'center' }}>
-                        <ul >
+        <CardGroup style={{height: "80vh"}}>
+            <Card style={{ background: 'none', border: 'none', placeSelf: 'center', textAlign: 'center' }}>
+                <Card.Img variant="top" src="https://image.flaticon.com/icons/png/128/724/724664.png" style={{ width: 'auto', height: '60px', placeSelf: 'center' }} />
+                <Card.Body>
+                    <h1 style={{ color: 'white' }}>Phone</h1>
+                    <Card.Text>
+                        <h5 style={{ color: 'white' }}>+91 9433307616</h5>
+                        <h5 style={{ color: 'white' }}>+91 9038572990</h5>
+                    </Card.Text>
+                </Card.Body>
+            </Card>
 
-                            <img src="https://image.flaticon.com/icons/png/128/724/724664.png" style={{ width: 'auto', height: '45px', placeSelf: 'center' }} />
-                            <h1 style={{ color: 'white' }}>Phone</h1>
+            <Card style={{ background: 'none', border: 'none', placeSelf: 'center', textAlign: 'center' }}>
+                <Card.Img variant="top" src="https://image.flaticon.com/icons/png/128/552/552486.png" style={{ width: 'auto', height: '60px', placeSelf: 'center' }} />
+                <Card.Body>
+                    <h1 style={{ color: 'white' }}>Mail</h1>
+                    <Card.Text>
+                        <h5><a href="mailto:techetc@hetc.ac.in" style={{ color: 'white' }}>techetc@hetc.ac.in</a></h5>
+                    </Card.Text>
+                </Card.Body>
+            </Card>
 
-                            <h5 style={{ color: 'white' }}>094333 07616</h5>
-                        </ul>
-                    </Row>
-                    <Row>
-                        <ul style={{ textAlign: 'center', padding: '25px 0 25px 0' }}>
-                            <img src="https://image.flaticon.com/icons/png/128/552/552486.png" style={{ width: 'auto', height: '45px', placeSelf: 'center' }} />
-                            <h1 style={{ color: 'white' }}>Mail</h1>
-                            <h5><a href="mailto:techetc@hetc.ac.in" style={{ color: 'white' }}>techetc@hetc.ac.in</a></h5>
-                        </ul>
-                    </Row>
-                    <Row>
-                        <ul style={{ textAlign: 'center' }}>
-                            <img src="https://image.flaticon.com/icons/png/128/2747/2747578.png" style={{ width: 'auto', height: '45px', placeSelf: 'center' }} />
-                            <h1 style={{ color: 'white' }}>Location</h1>
-                            <h5 style={{ color: 'white' }}>Vivekananda Road, Pipulpati Hooghly, West Bengal, India 712103</h5>
-                        </ul>
-                    </Row>
-                </Card>
-                {/* <Card style={{ background: 'none', border: 'none' }}>
-                    <iframe className="my-5"
-                        src="https://docs.google.com/forms/d/e/1FAIpQLSeCrub0XBIhqp14z9oMctV-xeNEiyWD95ck6x7fv_MNpu7n4Q/viewform?embedded=true" width="100%" height="550" frameborder="0" marginheight="0" marginwidth="0">
-                        Loading...
-                    </iframe>
-                </Card> */}
-            </CardGroup>
-
-        </>
+            <Card style={{ background: 'none', border: 'none', placeSelf: 'center', textAlign: 'center' }}>
+                <Card.Img variant="top" src="https://image.flaticon.com/icons/png/128/2747/2747578.png" style={{ width: 'auto', height: '60px', placeSelf: 'center' }} />
+                <Card.Body>
+                    <h1 style={{ color: 'white' }}>Location</h1>
+                    <Card.Text>
+                        <h5 style={{ color: 'white' }}>Vivekananda Road, Pipulpati Hooghly, West Bengal, India 712103</h5>
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+        </CardGroup>
     )
 }
