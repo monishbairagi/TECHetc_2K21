@@ -3,12 +3,12 @@ import React from 'react'
 export const ImageView = (obj) => {
     return (
         <div>
-            <a class="lightbox" href={"#"+obj.id}>
-                <img src={obj.img}/>
+            <a className="lightbox" href={"#"+obj.id}>
+                <img src={obj.img} alt="imgage"/>
             </a>
-            <div class="lightbox-target" id={obj.id}>
-                <img src={obj.img}/>
-                <a class="lightbox-close" href="#."></a>
+            <div className="lightbox-target" id={obj.id}>
+                <img src={obj.img} alt="imgage"/>
+                <a className="lightbox-close" href="#."> </a>
             </div>
         </div>
     )

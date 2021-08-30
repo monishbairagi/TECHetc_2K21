@@ -1,8 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { CardGroup, Card } from 'react-bootstrap'
 import { Link } from "react-router-dom"
-import { KnowMore } from '../../components/KnowMore'
-import { Schedule } from '../Schedule'
 import code2duo_img from '../../components/assets/Images/code2duo.jfif';
 import codeRestyle_img from '../../components/assets/Images/coderestyle.jfif';
 import crossword_img from "../../components/assets/Images/crossWord.jpg";
@@ -33,11 +31,10 @@ export const CollegeEvents = (obj) => {
         "INSTA-PLAN",
         "μMAT",
         "CIRCUITECH",
-        "Hunt For Fun",
+        "HUNT-FOR-FUN",
         "MATHMANIA",
-        "Logi-CAD",
-        "8 Ball Pool",
-        "Chess"
+        "LOGI-CAD",
+        "8 BALL POOL",
     ]
 
     return (

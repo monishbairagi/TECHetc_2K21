@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useState } from 'react'
+import React from 'react'
 import { NavBar } from './components/NavBar';
 import { Main } from './pages/Main';
 import { Contact } from './pages/Contact';
@@ -14,29 +14,12 @@ import { EventsMain } from './pages/EventsMain';
 import { Schedule } from './pages/Schedule';
 import { Background } from './components/Background';
 import { KnowMore } from './components/KnowMore';
-import Credits from './pages/Credits';
 import { Gallery } from './pages/Gallery';
 
 function App() {
   let appStyle = {
     transition: '.5s',
   }
-
-  let js = {
-    id: 0,
-    event: ""
-  };
-
-  let id = 1;
-  // const [eventData, setEventData] = useState(js)
-  // let getJson = (e) => {
-  //   // console.log(e.event);
-  //   setEventData({
-  //     id: e.id,
-  //     event: e.event
-  //   });
-  //   console.log(eventData);
-  // }
 
   return (
     <div style={appStyle}>
@@ -122,17 +105,16 @@ function App() {
           </Route>
 
           <Route exact path={"/events/college/knowmore/13"}>
-            <KnowMore id={13} />
+            <KnowMore id={12} />
           </Route>
 
           <Route exact path={"/events/school/knowmore/1"}>
-            <KnowMore id={14} />
+            <KnowMore id={13} />
           </Route>
 
           <Route exact path={"/events/school/knowmore/2"}>
-            <KnowMore id={15} />
+            <KnowMore id={14} />
           </Route>
-
         </Switch>
       </Router>
     </div>
