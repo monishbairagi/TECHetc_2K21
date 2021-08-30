@@ -27,7 +27,7 @@ export const NavBar = () => {
     return (
         <>
             <Navbar className="text-center px-2 py-0 mb-3" collapseOnSelect expand="lg" bg="none" variant="dark" style={colorChange ? blurreedNav : navStyle}>
-                <Navbar.Brand as={Link} to="/" style={{ fontSize: '35px', fontWeight: '800' }}>TECHetc 2k21</Navbar.Brand>
+                <Navbar.Brand as={Link} to="/" style={{ fontSize: '35px', fontWeight: '800' }}>TECHetc 2K21</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav></Nav>
