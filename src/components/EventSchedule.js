@@ -9,7 +9,7 @@ export const EventSchedule = (obj) => {
                 <Row>
                     <Col></Col>
                     <Col>
-                        <h3 style={{textAlign: 'center'}}>Event Schedule</h3>
+                        <h1 style={{textAlign: 'center'}}>Event Schedule</h1>
                     </Col>
                     <Col>
                         <a href={pdfLink} target='_blank' rel="noreferrer" className='btn btn-primary' style={{ float: 'right' }}>Download PDF</a>
