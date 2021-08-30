@@ -2,15 +2,14 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Navbar, Nav } from 'react-bootstrap'
 import "../pages/Styles/Main.css"
-import collegeLogo from "../components/assets/Images/college-logo.jpg"
 
 export const NavBar = () => {
     let contactBtnStyle = {
         alignContent: "center",
         placeSelf: "center"
     }
-    let navStyle = { position: '-webkit-sticky', position: 'sticky', top: '0', zIndex: '1', backdropFilter: 'blur(0px)' }
-    let blurreedNav = { position: '-webkit-sticky', position: 'sticky', top: '0', zIndex: '1', backdropFilter: 'blur(60px)' }
+    let navStyle = {  position: 'sticky', top: '0', zIndex: '1', backdropFilter: 'blur(0px)' }
+    let blurreedNav = {  position: 'sticky', top: '0', zIndex: '1', backdropFilter: 'blur(60px)' }
 
 
     const [colorChange, setColorChange] = useState(false);

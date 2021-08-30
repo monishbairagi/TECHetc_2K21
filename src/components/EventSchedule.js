@@ -15,13 +15,12 @@ export const EventSchedule = (obj) => {
                     {
                         obj.events.map((e) => {
                             return (
-                                e.id !== '#' ?
-                                    <tr>
+                                e.id !== '#' &&
+                                    <tr key={e.id}>
                                         <td>{e.event}</td>
                                         <td className='text-center'>{e.day1}</td>
                                         <td className='text-center'>{e.day2}</td>
                                     </tr>
-                                    : ""
                             )
                         })
                     }

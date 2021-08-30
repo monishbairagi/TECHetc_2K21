@@ -1,8 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { CardGroup, Card } from 'react-bootstrap'
 import { Link } from "react-router-dom"
-import { KnowMore } from '../../components/KnowMore'
-import { Schedule } from '../Schedule'
 
 
 export const SchoolEvents = (obj) => {
