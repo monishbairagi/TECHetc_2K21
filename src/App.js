@@ -105,15 +105,15 @@ function App() {
           </Route>
 
           <Route exact path={"/events/college/knowmore/13"}>
-            <KnowMore id={13} />
+            <KnowMore id={12} />
           </Route>
 
           <Route exact path={"/events/school/knowmore/1"}>
-            <KnowMore id={14} />
+            <KnowMore id={13} />
           </Route>
 
           <Route exact path={"/events/school/knowmore/2"}>
-            <KnowMore id={15} />
+            <KnowMore id={14} />
           </Route>
         </Switch>
       </Router>
