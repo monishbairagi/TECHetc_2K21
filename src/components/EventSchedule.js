@@ -1,31 +1,46 @@
 import React from 'react'
+import { Row, Col, Container } from 'react-bootstrap'
 
 export const EventSchedule = (obj) => {
+    let pdfLink = "#";
     return (
-        <div className='mx-2'>
-            <table className="table" style={{ color: 'white'}}>
-                <thead>
-                    <tr>
-                        <th scope="col"><h5>{obj.events[0].event}</h5></th>
-                        <th className='text-center' scope="col"><h5>{obj.events[0].day1}</h5></th>
-                        <th className='text-center' scope="col"><h5>{obj.events[0].day2}</h5></th>
-                    </tr>
-                </thead>
-                <tbody>
+        <div className='mx-2' style={{ color: 'white', textAlign: 'center' }}>
+            <Container>
+                <Row>
+                    <Col></Col>
+                    <Col>
+                        <h3 style={{textAlign: 'center'}}>Event Schedule</h3>
+                    </Col>
+                    <Col>
+                        <a href={pdfLink} target='_blank' rel="noreferrer" className='btn btn-primary' style={{ float: 'right' }}>Download PDF</a>
+                    </Col>
+                </Row>
+            </Container>
+            <div className="table" style={{ color: 'white' }}>
+                <Container>
+                    <Row>
+                        <Col className='text-center'><h5>{obj.events[0].event}</h5></Col>
+                        <Col className='text-center'><h5>{obj.events[0].day1}</h5></Col>
+                        <Col className='text-center'><h5>{obj.events[0].day2}</h5></Col>
+                    </Row><hr style={{ margin: '0' }} />
+                </Container>
+                <Container>
                     {
                         obj.events.map((e) => {
                             return (
                                 e.id !== '#' &&
-                                    <tr key={e.id}>
-                                        <td>{e.event}</td>
-                                        <td className='text-center'>{e.day1}</td>
-                                        <td className='text-center'>{e.day2}</td>
-                                    </tr>
+                                <div  key={e.id}>
+                                    <Row>
+                                        <Col className='text-center'>{e.event}</Col>
+                                        <Col className='text-center'>{e.day1}</Col>
+                                        <Col className='text-center'>{e.day2}</Col>
+                                    </Row><hr style={{ margin: '0' }} />
+                                </div>
                             )
                         })
                     }
-                </tbody>
-            </table>
+                </Container>
+            </div>
         </div>
     )
 }
