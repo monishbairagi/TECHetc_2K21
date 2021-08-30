@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import { useParams } from "react-router-dom"
+import React from 'react'
 
 export const KnowMore = (obj) => {
 
@@ -441,7 +440,6 @@ export const KnowMore = (obj) => {
         },
         {
             id: '15',
-            event: 'CHESS',
             event: 'CHESS',
             para1: 'Berserk is allowed at your own risk.',
             head2:'How are scores calculated?',
