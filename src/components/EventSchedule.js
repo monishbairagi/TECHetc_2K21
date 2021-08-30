@@ -9,7 +9,7 @@ export const EventSchedule = (obj) => {
                 <Row>
                     <Col></Col>
                     <Col>
-                        <h1 style={{textAlign: 'center'}}>Event Schedule</h1>
+                        <h1 style={{ textAlign: 'center' }}>Event Schedule</h1>
                     </Col>
                     <Col>
                         <a href={pdfLink} target='_blank' rel="noreferrer" className='btn btn-primary' style={{ float: 'right' }}>Download PDF</a>
@@ -29,13 +29,14 @@ export const EventSchedule = (obj) => {
                         obj.events.map((e) => {
                             return (
                                 e.id !== '#' &&
-                                <div  key={e.id}>
+                                <>
                                     <Row>
                                         <Col className='text-center'>{e.event}</Col>
                                         <Col className='text-center'>{e.day1}</Col>
                                         <Col className='text-center'>{e.day2}</Col>
-                                    </Row><hr style={{ margin: '0' }} />
-                                </div>
+                                    </Row>
+                                    <hr style={{ margin: '0' }} />
+                                </>
                             )
                         })
                     }
