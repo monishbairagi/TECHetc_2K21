@@ -12,34 +12,39 @@ import g9 from '../components/assets/Images/g9.JPG'
 import g10 from '../components/assets/Images/g10.JPG'
 import g11 from '../components/assets/Images/g11.JPG'
 import g12 from '../components/assets/Images/g12.JPG'
+import { ImageView } from '../components/ImageView'
 
 export const Gallery = () => {
     return (
         <Container className="text-center">
             <Row>
-                <Col><img src={g1} width="100%" /></Col>
-                <Col><img src={g2} width="100%" /></Col>
-                <Col><img src={g3} width="100%" /></Col>
-            </Row><br />
+                <Col><ImageView img={g1} id={'1'}/></Col>
+                <Col><ImageView img={g2} id={'2'}/></Col>
+            </Row><br/>
             <Row>
-                <Col><img src={g4} width="100%" /></Col>
-            </Row><br />
+                <Col><ImageView img={g3} id={'3'}/></Col>
+            </Row><br/>
             <Row>
-                <Col><img src={g5} width="100%" /></Col>
-                <Col><img src={g6} width="100%" /></Col>
-            </Row><br />
+                <Col><ImageView img={g4} id={'4'}/></Col>
+                <Col><ImageView img={g5} id={'5'}/></Col>
+            </Row><br/>
             <Row>
-                <Col><img src={g7} width="100%" /></Col>
-                <Col><img src={g8} width="100%" /></Col>
-                <Col><img src={g9} width="100%" /></Col>
-            </Row><br />
+                <Col><ImageView img={g6} id={'6'}/></Col>
+            </Row><br/>
             <Row>
-                <Col><img src={g10} width="100%" /></Col>
-                <Col><img src={g11} width="100%" /></Col>
-            </Row><br />
+                <Col><ImageView img={g7} id={'7'}/></Col>
+                <Col><ImageView img={g8} id={'8'}/></Col>
+            </Row><br/>
             <Row>
-                <Col><img src={g12} width="100%" /></Col>
-            </Row>
+                <Col><ImageView img={g9} id={'9'}/></Col>
+            </Row><br/>
+            <Row>
+                <Col><ImageView img={g10} id={'10'}/></Col>
+                <Col><ImageView img={g11} id={'11'}/></Col>
+            </Row><br/>
+            <Row>
+                <Col><ImageView img={g12} id={'12'}/></Col>
+            </Row><br/>
         </Container >
     )
 }
