@@ -24,8 +24,8 @@ export const Main = () => {
     return (
         <div style={mainStyle}>
             <center>
-                <a href="https://www.hetc.ac.in/" target="_blank">
-                    <img src={collegeLogo} width="120vw" style={{ borderRadius: "50%", marginBottom: '0' }} />
+                <a href="https://www.hetc.ac.in/" target="_blank" rel="noreferrer">
+                    <img src={collegeLogo} width="120vw" alt="logo" style={{ borderRadius: "50%", marginBottom: '0' }} />
                 </a>
             </center>
             <h1 style={h1Style} className="techetc-title">TECHetc 2K21</h1>
