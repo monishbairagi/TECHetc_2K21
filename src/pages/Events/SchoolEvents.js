@@ -11,8 +11,8 @@ export const SchoolEvents = (obj) => {
 
     let event = [
         "",
-        "8 Ball Pool",
-        "Chess",
+        "MATHMANIA",
+        "CHESS",
     ]
 
     return (
