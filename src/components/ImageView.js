@@ -8,7 +8,7 @@ export const ImageView = (obj) => {
             </a>
             <div class="lightbox-target" id={obj.id}>
                 <img src={obj.img}/>
-                <a class="lightbox-close" href="#"></a>
+                <a class="lightbox-close" href="#."></a>
             </div>
         </div>
     )
