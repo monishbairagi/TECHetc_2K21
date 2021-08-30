@@ -26,9 +26,9 @@ export const CollegeEvents = (obj) => {
         "CIRCUITECH",
         "Hunt For Fun",
         "MATHMANIA",
-        "X-X-X-X",
-        "X-X-X-X",
-        "X-X-X-X"
+        "LOGI-CAD",
+        "8 Ball Pool",
+        "CHESS"
     ]
 
     return (
