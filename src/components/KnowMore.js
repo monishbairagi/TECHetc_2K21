@@ -6,7 +6,7 @@ export const KnowMore = (obj) => {
         {
             id: '1',
             event: '<CODE/RESTYLE>',
-            head1: 'ABOUT CODE RESTYLE:',
+            head1: 'ABOUT CODE-RESTYLE:',
             para1: "CODE RESTYLE was first introduced in TECHETC 2k19. It will be an awesome platform to hone your knowledge of the internal working of the C language over 2 rounds of exciting questions and with just one attempt of compilation."
                 + "So, have you mastered the C language? Can you crack the MCQ test related to the C language? Can you code with 1 chance to compile & run? Do you type at 100WPM without missing a single semicolon and compile it in 1 go?"
                 + "Then this is the event for you. Come join us this TECHETC 2k21 and show us your programming knowledge and blind coding skills.",
@@ -214,8 +214,8 @@ export const KnowMore = (obj) => {
         },
         {
             id: '7',
-            event: 'μMAT',
-            head1: 'About μMAT:',
+            event: 'μ-MAT',
+            head1: 'About μ-MAT:',
             para1: 'This contest is aimed at testing the knowledge about 8085μP with peripheral devices and their programming skills using Assembly Language Programming (ALP).'
             +'\nAt the same time the knowledge about MATLAB and the programming skills will be tested.',
             para2: '•  The contest would consist of Three Rounds.'
@@ -287,7 +287,7 @@ export const KnowMore = (obj) => {
         },
         {
             id: '9',
-            event: 'Hunt For Fun',
+            event: 'HUNT-FOR-FUN',
             head1: 'About:',
             para1: 'Do you think you have what it takes to solve mysteries? Have you felt comfortable dreaming and fantasizing yourselves in a detective-s hat? Gear up as TECHetc 2K21 brings to you the event of Hunt For Fun, where players or treasure hunters search for answers to the questions. Players use clues and hints given along with the question to get the answer and progress though the hunt unlocking greater treasures every time. More thrill, more excitement, more madness, more treasures!',
             head3: 'Rules:-',
@@ -360,7 +360,7 @@ export const KnowMore = (obj) => {
         },
         {
             id: '12',
-            event: '8 Ball Pool',
+            event: '8-BALL-POOL',
             head3:'Event rules:',
             para3:'•  Opponent will be selected by lottery system.'
             +'\n•  Unique id must be registered with IGN(In Game Name).'

@@ -29,12 +29,13 @@ export const CollegeEvents = (obj) => {
         "CIRCUI-T-RICKS",
         "CIVIL-O-PEDIA",
         "INSTA-PLAN",
-        "μMAT",
+        "μ-MAT",
         "CIRCUITECH",
         "HUNT-FOR-FUN",
         "MATHMANIA",
         "LOGI-CAD",
-        "8 BALL POOL",
+        "8-BALL-POOL",
+        "CHESS"
     ]
 
     return (
