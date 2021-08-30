@@ -10,10 +10,8 @@ export const Main = () => {
         marginTop: '9vh',
     }
     let h1Style = {
-
-        fontSize: '10vw',
-        fontSize: '8vw',
-        fontWeight: '800'
+        fontSize: '12vw',
+        margin: '0',
     }
     let btnStyle = {
         fontSize: '25px',
