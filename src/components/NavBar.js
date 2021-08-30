@@ -26,11 +26,11 @@ export const NavBar = () => {
     return (
         <>
             <Navbar className="text-center px-2 py-0 mb-3" collapseOnSelect expand="lg" bg="none" variant="dark" style={colorChange ? blurreedNav : navStyle}>
-                <Navbar.Brand as={Link} to="/" style={{ fontSize: '35px', fontWeight: '800' }}>TECHetc 2K21</Navbar.Brand>
+                <Navbar.Brand as={Link} to="/" className="brand-style">TECHetc 2K21</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav></Nav>
-                    <Nav className="me-auto" style={{ fontSize: '20px', fontWeight: '400' }}>
+                    <Nav className="me-auto" style={{ fontSize: '20px', fontWeight: '400', fontFamily: "Noto Sans, sans-serif" }}>
                         <Nav.Link eventKey="1" as={Link} to="/">Home</Nav.Link>
                         <Nav.Link eventKey="2" as={Link} to="/events">Events</Nav.Link>
                         <Nav.Link eventKey="3" as={Link} to="/schedule">Schedule</Nav.Link>

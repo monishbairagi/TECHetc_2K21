@@ -29,8 +29,8 @@ export const Main = () => {
                 </a>
             </center>
             <h1 style={h1Style} className="techetc-title">TECHetc 2K21</h1>
-            <h4>Annual Technical Festival organized by HETC</h4>
-            <h1>15 AND 16 SEPTEMBER</h1>
+            <h4 style={{ fontFamily: "Andale Mono, monospace", color: "rgb(232, 255, 129)" }}>Annual Technical Festival organized by HETC</h4>
+            <h1 style={{ fontFamily: "Blippo, fantasy", color: "rgba(0, 255, 213, 0.849)" }}>15 AND 16 SEPTEMBER</h1>
             <Link to='/events' className='btn btn-outline-info' style={btnStyle}>EVENTS</Link>
         </div>
     )
