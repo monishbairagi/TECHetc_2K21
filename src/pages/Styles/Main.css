@@ -246,3 +246,8 @@
   top: 0;
   }
   
+  .brand-style{
+    font-size: 30px;
+    font-family:Arial, sans-serif;
+    font-weight:bolder;
+  }

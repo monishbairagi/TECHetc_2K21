@@ -3,7 +3,7 @@ import { CardGroup, Card } from 'react-bootstrap'
 
 export const Contact = () => {
     return (
-        <CardGroup style={{height: "80vh"}}>
+        <CardGroup style={{ height: "80vh", fontFamily: "arial" }}>
             <Card style={{ background: 'none', border: 'none', placeSelf: 'center', textAlign: 'center' }}>
                 <Card.Img variant="top" src="https://image.flaticon.com/icons/png/128/724/724664.png" style={{ width: 'auto', height: '60px', placeSelf: 'center' }} />
                 <Card.Body>
