@@ -1,5 +1,5 @@
 import React from 'react'
-import collegeLogo from "../components/assets/Images/college-logo.jpg";
+import collegeLogo from "../components/assets/Images/college-logo.png";
 import { Link } from "react-router-dom";
 
 export const Main = () => {

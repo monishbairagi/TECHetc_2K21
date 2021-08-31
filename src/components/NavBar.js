@@ -34,8 +34,9 @@ export const NavBar = () => {
                         <Nav.Link eventKey="1" as={Link} to="/TECHetc2K21">Home</Nav.Link>
                         <Nav.Link eventKey="2" as={Link} to="/TECHetc2K21/events">Events</Nav.Link>
                         <Nav.Link eventKey="3" as={Link} to="/TECHetc2K21/schedule">Schedule</Nav.Link>
-                        <Nav.Link eventKey="4" as={Link} to="/TECHetc2K21/gallery">Gallery</Nav.Link>
-                        <Nav.Link eventKey="5" as={Link} to="/TECHetc2K21/contact">Contact</Nav.Link>
+                        <Nav.Link eventKey="4" as={Link} to="/TECHetc2K21/rules">Rules</Nav.Link>
+                        <Nav.Link eventKey="5" as={Link} to="/TECHetc2K21/gallery">Gallery</Nav.Link>
+                        <Nav.Link eventKey="6" as={Link} to="/TECHetc2K21/contact">Contact</Nav.Link>
                     </Nav>
                     <Nav className>
                         <Nav.Link className="register-btn mx-2 my-2" style={contactBtnStyle} active href={regLink} target="_blank">Register Now</Nav.Link>

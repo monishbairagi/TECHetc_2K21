@@ -15,6 +15,7 @@ import { Schedule } from './pages/Schedule';
 import { Background } from './components/Background';
 import { KnowMore } from './components/KnowMore';
 import { Gallery } from './pages/Gallery';
+import { Rules } from './pages/Rules';
 
 function App() {
   let appStyle = {
@@ -52,8 +53,12 @@ function App() {
             <Schedule />
           </Route>
 
+          <Route exact path="/TECHetc2K21/rules">
+            <Rules />
+          </Route>
+
           <Route exact path="/TECHetc2K21/gallery">
-            <Gallery/>
+            <Gallery />
           </Route>
 
           <Route exact path={"/TECHetc2K21/events/college/knowmore/1"}>
