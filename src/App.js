@@ -54,11 +54,11 @@ function App() {
           </Route>
 
           <Route exact path="/TECHetc2K21/rules">
-            <Rules />
+            <Rules/>
           </Route>
 
           <Route exact path="/TECHetc2K21/gallery">
-            <Gallery />
+            <Gallery/>
           </Route>
           
         </Switch>

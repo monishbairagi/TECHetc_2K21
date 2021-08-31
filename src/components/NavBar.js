@@ -45,8 +45,6 @@ export const NavBar = () => {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-
-
         </>
     )
 }
