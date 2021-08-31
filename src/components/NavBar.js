@@ -8,8 +8,8 @@ export const NavBar = () => {
         alignContent: "center",
         placeSelf: "center"
     }
-    let navStyle = {  position: 'sticky', top: '0', zIndex: '1', backdropFilter: 'blur(0px)' }
-    let blurreedNav = {  position: 'sticky', top: '0', zIndex: '1', backdropFilter: 'blur(60px)' }
+    let navStyle = { position: 'sticky', top: '0', zIndex: '1', backdropFilter: 'blur(0px)' }
+    let blurreedNav = { position: 'sticky', top: '0', zIndex: '1', backdropFilter: 'blur(60px)' }
 
 
     const [colorChange, setColorChange] = useState(false);
@@ -21,7 +21,8 @@ export const NavBar = () => {
         }
     });
 
-    let regLink = "https://forms.gle/6ypXRTMvXR7avzzv8";
+    let CregLink = "https://forms.gle/6ypXRTMvXR7avzzv8";
+    let SregLink = "https://forms.gle/jxhMqN7E7RjS3FEbA";
 
     return (
         <>
@@ -39,12 +40,11 @@ export const NavBar = () => {
                         <Nav.Link eventKey="6" as={Link} to="/TECHetc2K21/contact">Contact</Nav.Link>
                     </Nav>
                     <Nav className>
-                        <Nav.Link className="register-btn mx-2 my-2" style={contactBtnStyle} active href={regLink} target="_blank">Register Now</Nav.Link>
+                        <Nav.Link className="register-btn mx-2 my-2" style={contactBtnStyle} active href={SregLink} target="_blank">Register Now <p style={{fontSize: '14px', fontWeight: 'normal'}}>(For School Students)</p></Nav.Link>
+                        <Nav.Link className="contact-btn mx-2 my-2" style={contactBtnStyle} active href={CregLink} target="_blank">Register Now <p style={{fontSize: '14px', fontWeight: 'normal'}}>(For College Students)</p></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-
-
         </>
     )
 }

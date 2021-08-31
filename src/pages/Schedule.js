@@ -24,19 +24,19 @@ export const Schedule = () => {
         {
             id: "3",
             event: "CODE RESTYLE",
-            day1: "12:00 PM",
+            day1: "12:00 Noon",
             day2: "X"
         },
         {
             id: "4",
             event: "LOGI-CAD",
-            day1: "12:00 PM",
+            day1: "12:00 Noon",
             day2: "X"
         },
         {
             id: "5",
             event: "CIVIL-O-PEDIA",
-            day1: "12:00 PM",
+            day1: "12:00 Noon",
             day2: "X"
         },
         {
@@ -73,7 +73,7 @@ export const Schedule = () => {
             id: "11",
             event: "8 BALL POOL",
             day1: "X",
-            day2: "12:00 PM"
+            day2: "12:00 Noon"
         },
         {
             id: "12",
