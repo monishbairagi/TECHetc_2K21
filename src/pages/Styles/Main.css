@@ -128,7 +128,10 @@
     background-color: rgb(0, 195, 10);
   }
 
-  @import url('http://fonts.cdnfonts.com/css/techno-hideo');
+  @font-face {
+    font-family: 'Techno Hideo';
+    src: url(techno_hideo.ttf);
+  }
   .techetc-title{
     font-family: 'Techno Hideo', sans-serif;
   }
@@ -248,7 +251,7 @@
   }
   
   .brand-style{
-    font-size: 30px;
-    font-family:Arial, sans-serif;
-    font-weight:bolder;
+    font-size: 40px;
+    font-family: 'Techno Hideo', sans-serif;
+    font-weight: normal;
   }

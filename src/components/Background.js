@@ -1,17 +1,15 @@
 import React from 'react'
-import v1 from './assets/videos/sample_background.mp4'
+import v1 from './assets/videos/v1.mp4'
 import v2 from './assets/videos/v2.mp4'
 import v3 from './assets/videos/v3.mp4'
 import v4 from './assets/videos/v4.mp4'
-import v5 from './assets/videos/v5.mp4'
 
 const getVideo = () => {
-    var i = Math.floor(Math.random() * 5);
+    var i = Math.floor(Math.random() * 4);
     if (i === 0) return v1;
     else if (i === 1) return v2;
     else if (i === 2) return v3;
-    else if (i === 3) return v4;
-    else return v5;
+    else return v4;
 }
 
 export const Background = () => {
