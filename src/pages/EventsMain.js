@@ -9,7 +9,7 @@ export const EventsMain = () => {
         <div className="container text-center" style={{marginTop: '10%'}}>
             <Row className="px-5 mx-5">
                 <Col className="d-flex justify-content-center">
-                    <Link to="/events/school" style={{ textDecoration: 'none' }}><div className="card card-school-events" >
+                    <Link to="/TECHetc2K21/events/school" style={{ textDecoration: 'none' }}><div className="card card-school-events" >
                         <img src={boy} alt="imgage"/>
                         <div className="card-body">
                             <h2 className="d-flex justify-content-center" >Events for School Students</h2>
@@ -18,7 +18,7 @@ export const EventsMain = () => {
                 </Col>
 
                 <Col className="d-flex justify-content-center">
-                    <Link to="events/college" style={{ textDecoration: 'none' }}><div className="card card-college-events" >
+                    <Link to="/TECHetc2K21/events/college" style={{ textDecoration: 'none' }}><div className="card card-college-events" >
                         <img src={man} alt="imgage"/>
                         <div className="card-body">
                             <h2 className="d-flex justify-content-center" >Events for College Students</h2>

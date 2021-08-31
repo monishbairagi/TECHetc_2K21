@@ -25,7 +25,7 @@ export const SchoolEvents = (obj) => {
                         src={MathMania_img} />
                     <Card.Body>
                         <Card.Title style={{ margin: '0' }}>{event[1]}</Card.Title>
-                        <Link style={{ color: 'white' }} to='/events/school/knowmore/1' target="_blank">
+                        <Link style={{ color: 'white' }} to='/TECHetc2K21/events/school/knowmore/1' target="_blank">
                             Know More
                         </Link>
                     </Card.Body>
@@ -36,7 +36,7 @@ export const SchoolEvents = (obj) => {
                         src={chess_img} />
                     <Card.Body>
                         <Card.Title style={{ margin: '0' }}>{event[2]}</Card.Title>
-                        <Link style={{ color: 'white' }} to='/events/school/knowmore/2' target="_blank">
+                        <Link style={{ color: 'white' }} to='/TECHetc2K21/events/school/knowmore/2' target="_blank">
                             Know More
                         </Link>
                     </Card.Body>

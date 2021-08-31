@@ -28,91 +28,91 @@ function App() {
         <NavBar />
         <Switch>
 
-          <Route exact path="/">
+          <Route exact path="/TECHetc2K21">
             <Main />
           </Route>
 
-          <Route exact path="/contact">
+          <Route exact path="/TECHetc2K21/contact">
             <Contact />
           </Route>
 
-          <Route exact path="/events">
+          <Route exact path="/TECHetc2K21/events">
             <EventsMain />
           </Route>
 
-          <Route exact path="/events/college">
+          <Route exact path="/TECHetc2K21/events/college">
             <CollegeEvents />
           </Route>
 
-          <Route exact path="/events/school">
+          <Route exact path="/TECHetc2K21/events/school">
             <SchoolEvents />
           </Route>
 
-          <Route exact path="/schedule">
+          <Route exact path="/TECHetc2K21/schedule">
             <Schedule />
           </Route>
 
-          <Route exact path="/gallery">
+          <Route exact path="/TECHetc2K21/gallery">
             <Gallery/>
           </Route>
 
-          <Route exact path={"/events/college/knowmore/1"}>
+          <Route exact path={"/TECHetc2K21/events/college/knowmore/1"}>
             <KnowMore id={0} />
           </Route>
 
-          <Route exact path={"/events/college/knowmore/2"}>
+          <Route exact path={"/TECHetc2K21/events/college/knowmore/2"}>
             <KnowMore id={1} />
           </Route>
 
-          <Route exact path={"/events/college/knowmore/3"}>
+          <Route exact path={"/TECHetc2K21/events/college/knowmore/3"}>
             <KnowMore id={2} />
           </Route>
 
-          <Route exact path={"/events/college/knowmore/4"}>
+          <Route exact path={"/TECHetc2K21/events/college/knowmore/4"}>
             <KnowMore id={3} />
           </Route>
 
-          <Route exact path={"/events/college/knowmore/5"}>
+          <Route exact path={"/TECHetc2K21/events/college/knowmore/5"}>
             <KnowMore id={4} />
           </Route>
 
-          <Route exact path={"/events/college/knowmore/6"}>
+          <Route exact path={"/TECHetc2K21/events/college/knowmore/6"}>
             <KnowMore id={5} />
           </Route>
 
-          <Route exact path={"/events/college/knowmore/7"}>
+          <Route exact path={"/TECHetc2K21/events/college/knowmore/7"}>
             <KnowMore id={6} />
           </Route>
 
-          <Route exact path={"/events/college/knowmore/8"}>
+          <Route exact path={"/TECHetc2K21/events/college/knowmore/8"}>
             <KnowMore id={7} />
           </Route>
 
-          <Route exact path={"/events/college/knowmore/9"}>
+          <Route exact path={"/TECHetc2K21/events/college/knowmore/9"}>
             <KnowMore id={8} />
           </Route>
 
-          <Route exact path={"/events/college/knowmore/10"}>
+          <Route exact path={"/TECHetc2K21/events/college/knowmore/10"}>
             <KnowMore id={9} />
           </Route>
 
-          <Route exact path={"/events/college/knowmore/11"}>
+          <Route exact path={"/TECHetc2K21/events/college/knowmore/11"}>
             <KnowMore id={10} />
           </Route>
 
-          <Route exact path={"/events/college/knowmore/12"}>
+          <Route exact path={"/TECHetc2K21/events/college/knowmore/12"}>
             <KnowMore id={11} />
           </Route>
 
-          <Route exact path={"/events/college/knowmore/13"}>
+          <Route exact path={"/TECHetc2K21/events/college/knowmore/13"}>
             <KnowMore id={12} />
           </Route>
 
-          <Route exact path={"/events/school/knowmore/1"}>
+          <Route exact path={"/TECHetc2K21/events/school/knowmore/1"}>
             <KnowMore id={13} />
           </Route>
 
-          <Route exact path={"/events/school/knowmore/2"}>
+          <Route exact path={"/TECHetc2K21/events/school/knowmore/2"}>
             <KnowMore id={14} />
           </Route>
         </Switch>

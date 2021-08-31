@@ -26,16 +26,16 @@ export const NavBar = () => {
     return (
         <>
             <Navbar className="text-center px-2 py-0 mb-3" collapseOnSelect expand="lg" bg="none" variant="dark" style={colorChange ? blurreedNav : navStyle}>
-                <Navbar.Brand as={Link} to="/" className="brand-style">TECHetc 2K21</Navbar.Brand>
+                <Navbar.Brand as={Link} to="/TECHetc2K21" className="brand-style">TECHetc 2K21</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav></Nav>
                     <Nav className="me-auto" style={{ fontSize: '20px', fontWeight: '400', fontFamily: "Noto Sans, sans-serif" }}>
-                        <Nav.Link eventKey="1" as={Link} to="/">Home</Nav.Link>
-                        <Nav.Link eventKey="2" as={Link} to="/events">Events</Nav.Link>
-                        <Nav.Link eventKey="3" as={Link} to="/schedule">Schedule</Nav.Link>
-                        <Nav.Link eventKey="4" as={Link} to="/gallery">Gallery</Nav.Link>
-                        <Nav.Link eventKey="5" as={Link} to="/contact">Contact</Nav.Link>
+                        <Nav.Link eventKey="1" as={Link} to="/TECHetc2K21">Home</Nav.Link>
+                        <Nav.Link eventKey="2" as={Link} to="/TECHetc2K21/events">Events</Nav.Link>
+                        <Nav.Link eventKey="3" as={Link} to="/TECHetc2K21/schedule">Schedule</Nav.Link>
+                        <Nav.Link eventKey="4" as={Link} to="/TECHetc2K21/gallery">Gallery</Nav.Link>
+                        <Nav.Link eventKey="5" as={Link} to="/TECHetc2K21/contact">Contact</Nav.Link>
                     </Nav>
                     <Nav className>
                         <Nav.Link className="register-btn mx-2 my-2" style={contactBtnStyle} active href={regLink} target="_blank">Register Now</Nav.Link>

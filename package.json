@@ -1,6 +1,7 @@
 {
   "name": "techetc2k21",
   "version": "0.1.0",
+  "homepage": "https://www.hetc.ac.in/TECHetc2K21",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",

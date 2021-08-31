@@ -46,7 +46,7 @@ export const CollegeEvents = (obj) => {
                         src={codeRestyle_img} />
                     <Card.Body>
                         <Card.Title style={{ margin: '0' }}>{event[1]}</Card.Title>
-                        <Link style={{ color: 'white' }} to='/events/college/knowmore/1' target="_blank">
+                        <Link style={{ color: 'white' }} to='/TECHetc2K21/events/college/knowmore/1' target="_blank">
                             Know More
                         </Link>
                     </Card.Body>
@@ -57,7 +57,7 @@ export const CollegeEvents = (obj) => {
                         src={code2duo_img} />
                     <Card.Body>
                         <Card.Title style={{ margin: '0' }}>{event[2]}</Card.Title>
-                        <Link style={{ color: 'white' }} to='/events/college/knowmore/2' target="_blank">
+                        <Link style={{ color: 'white' }} to='/TECHetc2K21/events/college/knowmore/2' target="_blank">
                             Know More
                         </Link>
                     </Card.Body>
@@ -68,7 +68,7 @@ export const CollegeEvents = (obj) => {
                         src={crossword_img} />
                     <Card.Body>
                         <Card.Title style={{ margin: '0' }}>{event[3]}</Card.Title>
-                        <Link style={{ color: 'white' }} to='/events/college/knowmore/3' target="_blank">
+                        <Link style={{ color: 'white' }} to='/TECHetc2K21/events/college/knowmore/3' target="_blank">
                             Know More
                         </Link>
                     </Card.Body>
@@ -79,7 +79,7 @@ export const CollegeEvents = (obj) => {
                         src={circuitrix_img} />
                     <Card.Body>
                         <Card.Title style={{ margin: '0' }}>{event[4]}</Card.Title>
-                        <Link style={{ color: 'white' }} to='/events/college/knowmore/4' target="_blank">
+                        <Link style={{ color: 'white' }} to='/TECHetc2K21/events/college/knowmore/4' target="_blank">
                             Know More
                         </Link>
                     </Card.Body>
@@ -93,7 +93,7 @@ export const CollegeEvents = (obj) => {
                         src={civilOpedia_img} />
                     <Card.Body>
                         <Card.Title style={{ margin: '0' }}>{event[5]}</Card.Title>
-                        <Link style={{ color: 'white' }} to='/events/college/knowmore/5' target="_blank">
+                        <Link style={{ color: 'white' }} to='/TECHetc2K21/events/college/knowmore/5' target="_blank">
                             Know More
                         </Link>
                     </Card.Body>
@@ -104,7 +104,7 @@ export const CollegeEvents = (obj) => {
                         src={instaPlan_img} />
                     <Card.Body>
                         <Card.Title style={{ margin: '0' }}>{event[6]}</Card.Title>
-                        <Link style={{ color: 'white' }} to='/events/college/knowmore/6' target="_blank">
+                        <Link style={{ color: 'white' }} to='/TECHetc2K21/events/college/knowmore/6' target="_blank">
                             Know More
                         </Link>
                     </Card.Body>
@@ -115,7 +115,7 @@ export const CollegeEvents = (obj) => {
                         src={uMAT_img} />
                     <Card.Body>
                         <Card.Title style={{ margin: '0' }}>{event[7]}</Card.Title>
-                        <Link style={{ color: 'white' }} to='/events/college/knowmore/7' target="_blank">
+                        <Link style={{ color: 'white' }} to='/TECHetc2K21/events/college/knowmore/7' target="_blank">
                             Know More
                         </Link>
                     </Card.Body>
@@ -126,7 +126,7 @@ export const CollegeEvents = (obj) => {
                         src={circuitech_img} />
                     <Card.Body>
                         <Card.Title style={{ margin: '0' }}>{event[8]}</Card.Title>
-                        <Link style={{ color: 'white' }} to='/events/college/knowmore/8' target="_blank">
+                        <Link style={{ color: 'white' }} to='/TECHetc2K21/events/college/knowmore/8' target="_blank">
                             Know More
                         </Link>
                     </Card.Body>
@@ -140,7 +140,7 @@ export const CollegeEvents = (obj) => {
                         src={huntForFun_img} />
                     <Card.Body>
                         <Card.Title style={{ margin: '0' }}>{event[9]}</Card.Title>
-                        <Link style={{ color: 'white' }} to='/events/college/knowmore/9' target="_blank">
+                        <Link style={{ color: 'white' }} to='/TECHetc2K21/events/college/knowmore/9' target="_blank">
                             Know More
                         </Link>
                     </Card.Body>
@@ -151,7 +151,7 @@ export const CollegeEvents = (obj) => {
                         src={MathMania_img} />
                     <Card.Body>
                         <Card.Title style={{ margin: '0' }}>{event[10]}</Card.Title>
-                        <Link style={{ color: 'white' }} to='/events/college/knowmore/10' target="_blank">
+                        <Link style={{ color: 'white' }} to='/TECHetc2K21/events/college/knowmore/10' target="_blank">
                             Know More
                         </Link>
                     </Card.Body>
@@ -162,7 +162,7 @@ export const CollegeEvents = (obj) => {
                         src={logiCAD_img} />
                     <Card.Body>
                         <Card.Title style={{ margin: '0' }}>{event[11]}</Card.Title>
-                        <Link style={{ color: 'white' }} to='/events/college/knowmore/11' target="_blank">
+                        <Link style={{ color: 'white' }} to='/TECHetc2K21/events/college/knowmore/11' target="_blank">
                             Know More
                         </Link>
                     </Card.Body>
@@ -173,7 +173,7 @@ export const CollegeEvents = (obj) => {
                         src={eightBP_img} />
                     <Card.Body>
                         <Card.Title style={{ margin: '0' }}>{event[12]}</Card.Title>
-                        <Link style={{ color: 'white' }} to='/events/college/knowmore/12' target="_blank">
+                        <Link style={{ color: 'white' }} to='/TECHetc2K21/events/college/knowmore/12' target="_blank">
                             Know More
                         </Link>
                     </Card.Body>
@@ -186,7 +186,7 @@ export const CollegeEvents = (obj) => {
                         src={chess_img} />
                     <Card.Body>
                         <Card.Title style={{ margin: '0' }}>{event[13]}</Card.Title>
-                        <Link style={{ color: 'white' }} to='/events/college/knowmore/13' target="_blank">
+                        <Link style={{ color: 'white' }} to='/TECHetc2K21/events/college/knowmore/13' target="_blank">
                             Know More
                         </Link>
                     </Card.Body>
