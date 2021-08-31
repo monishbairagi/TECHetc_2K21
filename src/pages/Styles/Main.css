@@ -88,30 +88,31 @@
   }
 
   .contact-btn{
-    border: 3px solid rgb(255, 187, 0);
-    color: rgb(255, 188, 5);
+    border: 3px solid rgb(0, 89, 255);
+    color: rgb(0, 89, 255);
     border-radius: 14px;
-    height: 50px;
-    width: 108px;
+    height: 68px;
+    width: 165px;
     border-radius: 18px;
     font-weight: bold;
     font-size: 20px;
     float: right;
-    padding: 5px 10px;
-    background-color: rgb(153, 113, 1);
+    padding: 3px 10px;
+    background-color: rgb(0, 51, 145);
+    filter: blur(10%);
   }
 
   .register-btn{
     border: 3px solid rgb(0, 195, 10);
     color: rgb(0, 195, 10);
     border-radius: 14px;
-    height: 50px;
+    height: 68px;
     width: 165px;
     border-radius: 18px;
     font-weight: bold;
     font-size: 20px;
     float: right;
-    padding: 5px 10px;
+    padding: 3px 10px;
     background-color: rgb(2, 102, 52);
     filter: blur(10%);
   }
@@ -119,7 +120,7 @@
   .contact-btn:hover{
     transform: scale(1.05);
     color: rgb(255, 255, 255);
-    background-color: rgb(255, 188, 5);
+    background-color: rgb(0, 89, 255);
   }
 
   .register-btn:hover{
@@ -251,7 +252,7 @@
   }
   
   .brand-style{
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Techno Hideo', sans-serif;
     font-weight: normal;
   }
