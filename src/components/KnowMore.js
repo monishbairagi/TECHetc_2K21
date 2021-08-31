@@ -187,11 +187,11 @@ export const KnowMore = (obj) => {
             +'\n\nThe rules are subject to minor changes (if needed) which shall be duly informed to the participants.'
             +'\n\nFor any further query, contact 9831366180/ 8961115386.',
             head3: 'Coordinator',
-            para3:'Arpita Chattopadhyay,'
-            +'\nRajdip Paul,' 
-            +'\nTanumoy ghosh, '
-            +'\nArpita Das,' 
-            +'\nSomnath Dey'
+            para3:'Arpita Chattopadhyay, 9831396937'
+            +'\nRajdip Paul, 9831366180' 
+            +'\nTanumoy ghosh, 8961115386'
+            +'\nArpita Das, 9831356955' 
+            +'\nSomnath Dey, 9804958885'
         },
         {
             id: '6',
@@ -208,9 +208,9 @@ export const KnowMore = (obj) => {
             +'\n9. In case of ‘Tie’, preference will be given to the group doing early submission.'
             +'\n10. Decision of the judges will be final.',
             head3: 'Coordinator',
-            para3:'Shibasish Deb,'
-            +'\nJayanta Bandyopadhyay'
-            +'\nSudipta Kansabanik',
+            para3:'Shibasish Deb, 9836057817'
+            +'\nJayanta Bandyopadhyay, 9433555936'
+            +'\nSudipta Kansabanik, 9163162845',
         },
         {
             id: '7',
