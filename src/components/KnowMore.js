@@ -1,4 +1,5 @@
 import React from 'react'
+import { Modal } from 'react-bootstrap'
 
 export const KnowMore = (obj) => {
 
@@ -473,28 +474,31 @@ export const KnowMore = (obj) => {
         },
     ];
 
+    let myData = data[obj.id];
     return (
-        <div className='p-3' style={{ color: 'white' }}>
-            <h3 style={{ textAlign: 'center' }}>{data[obj.id].event}</h3>
-            <hr style={{ height: '5px', color: 'white' }} />
-            <h3>{data[obj.id].head1}</h3>
-            <p style={{ fontFamily: "monospace" }}>{data[obj.id].para1}</p>
-            <h3>{data[obj.id].head2}</h3>
-            <pre style={{ whiteSpace: 'break-spaces' }}>{data[obj.id].para2}</pre>
-            <h3>{data[obj.id].head3}</h3>
-            <pre style={{ whiteSpace: 'break-spaces' }}>{data[obj.id].para3}</pre>
-            <h3>{data[obj.id].head4}</h3>
-            <pre style={{ whiteSpace: 'break-spaces' }}>{data[obj.id].para4}</pre>
-            <h3>{data[obj.id].head5}</h3>
-            <pre style={{ whiteSpace: 'break-spaces' }}>{data[obj.id].para5}</pre>
-            <h3>{data[obj.id].head6}</h3>
-            <pre style={{ whiteSpace: 'break-spaces' }}>{data[obj.id].para6}</pre>
-            <h3>{data[obj.id].head7}</h3>
-            <pre style={{ whiteSpace: 'break-spaces' }}>{data[obj.id].para7}</pre>
-            <h3>{data[obj.id].head8}</h3>
-            <pre style={{ whiteSpace: 'break-spaces' }}>{data[obj.id].para8}</pre>
-            <h3>{data[obj.id].head9}</h3>
-            <pre style={{ whiteSpace: 'break-spaces' }}>{data[obj.id].para9}</pre>
-        </div>
+        <>
+            <div className='p-3' style={{ color: 'black' }}>
+                {/* <h3 style={{ textAlign: 'center' }}>{myData.event}</h3> */}
+                {/* <hr style={{ height: '5px', color: 'black' }} /> */}
+                <h3>{myData.head1}</h3>
+                <p style={{ fontFamily: "monospace" }}>{myData.para1}</p>
+                <h3>{myData.head2}</h3>
+                <pre style={{ whiteSpace: 'break-spaces' }}>{myData.para2}</pre>
+                <h3>{myData.head3}</h3>
+                <pre style={{ whiteSpace: 'break-spaces' }}>{myData.para3}</pre>
+                <h3>{myData.head4}</h3>
+                <pre style={{ whiteSpace: 'break-spaces' }}>{myData.para4}</pre>
+                <h3>{myData.head5}</h3>
+                <pre style={{ whiteSpace: 'break-spaces' }}>{myData.para5}</pre>
+                <h3>{myData.head6}</h3>
+                <pre style={{ whiteSpace: 'break-spaces' }}>{myData.para6}</pre>
+                <h3>{myData.head7}</h3>
+                <pre style={{ whiteSpace: 'break-spaces' }}>{myData.para7}</pre>
+                <h3>{myData.head8}</h3>
+                <pre style={{ whiteSpace: 'break-spaces' }}>{myData.para8}</pre>
+                <h3>{myData.head9}</h3>
+                <pre style={{ whiteSpace: 'break-spaces' }}>{myData.para9}</pre>
+            </div>
+        </>
     )
 }
