@@ -301,8 +301,8 @@ export const KnowMore = (obj) => {
             head5: 'Eligibility:',
             para5: 'All team members should have proper College ID card on them and should be able to produce the same in original when asked for verification, failing which they will not be allowed to participate. Each participant should be a student pursuing some field of study in college/university.',
             head6: 'Coordinators:',
-            para6: 'Saurav Chowdhury: +91 9331614668'
-                + '\nPritam Biswas: +91 9038572990',
+            para6: '• Saurav Chowdhury: +91 9331614668'
+                + '\n• Pritam Biswas: +91 9038572990',
 
         },
         {

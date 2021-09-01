@@ -1,11 +1,13 @@
 import React from 'react'
+import poster from '../components/assets/Images/Poster_2021.jpg';
 
 export const Rules = () => {
     return (
-        <div className='container' style={{color: 'white', whiteSpace: 'pre-wrap'}}>
+        <div className='container' style={{ color: 'white', whiteSpace: 'pre-wrap' }}>
             <h2 style={{ textAlign: 'center' }}>GENERAL RULES FOR TECHetc 2K21</h2>
             <hr style={{ height: '5px', color: 'white' }} />
-            <pre style={{whiteSpace: 'pre-wrap', fontSize: 'large'}}>
+            <center><img src={poster} width="80%" height="80%" className="mb-5" /></center>
+            <pre style={{ whiteSpace: 'pre-wrap', fontSize: 'large' }}>
                 {
                     '• Decision of the jury will be final and binding for all events.'
                     + '\n\n• Any or all the rules are subject to change at any point of time.'
