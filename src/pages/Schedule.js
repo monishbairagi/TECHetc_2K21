@@ -17,38 +17,38 @@ export const Schedule = () => {
         },
         {
             id: "2",
-            event: "CHESS (SCHOOL & COLLEGE)",
+            event: "CODE RESTYLE",
             day1: "11:00 AM",
             day2: "X"
         },
         {
             id: "3",
-            event: "CODE RESTYLE",
-            day1: "12:00 Noon",
+            event: "LOGI-CAD",
+            day1: "11:00 AM",
             day2: "X"
         },
         {
             id: "4",
-            event: "LOGI-CAD",
-            day1: "12:00 Noon",
+            event: "CIVIL-O-PEDIA",
+            day1: "11:00 AM",
             day2: "X"
         },
         {
             id: "5",
-            event: "CIVIL-O-PEDIA",
-            day1: "12:00 Noon",
+            event: "μ-MAT",
+            day1: "12:30 PM",
             day2: "X"
         },
         {
             id: "6",
-            event: "μ-MAT",
-            day1: "1:30 PM",
+            event: "CIRCUI-T-RICS",
+            day1: "2:00 PM",
             day2: "X"
         },
         {
             id: "7",
-            event: "CIRCUI-T-RICS",
-            day1: "3:00 PM",
+            event: "CHESS (OPEN FOR SCHOOL & COLLEGE)",
+            day1: "3:30 PM",
             day2: "X"
         },
         {
@@ -73,7 +73,7 @@ export const Schedule = () => {
             id: "11",
             event: "8 BALL POOL",
             day1: "X",
-            day2: "12:00 Noon"
+            day2: "12:00 NOON"
         },
         {
             id: "12",
@@ -96,7 +96,7 @@ export const Schedule = () => {
     ]
     return (
         <div>
-            <EventSchedule events={scheduleData}/>
+            <EventSchedule events={scheduleData} />
         </div>
     )
 }

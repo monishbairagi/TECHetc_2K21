@@ -1,6 +1,6 @@
 import React from 'react'
 import { Row, Col, Container } from 'react-bootstrap'
-import rules_pdf from './assets/document/Event_Schedule_GenRules.pdf'
+import rules_pdf from './assets/document/EventSchedule_Rules.pdf'
 
 export const EventSchedule = (obj) => {
     return (
